@@ -142,7 +142,8 @@ def main() -> None:
         for n in CACHE_FILES:
             z.write(args.processed / "cache" / n, f"data/processed/cache/{n}")
     print(f"{zc.name}: pool.csv + кэш 256x256, {zc.stat().st_size / 2**20:.0f} МБ")
-    (args.out / "checksums.md5").write_text("".join(f"{md5(p)}  {p.name}\n" for p in (zp, zc)), encoding="utf-8")
+    # переводы строк LF: иначе md5sum -c на Linux и macOS не прочитает файл
+    (args.out / "checksums.md5").write_bytes("".join(f"{md5(p)}  {p.name}\n" for p in (zp, zc)).encode("utf-8"))
 
 
 if __name__ == "__main__":
