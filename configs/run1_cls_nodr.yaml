@@ -1,0 +1,9 @@
+# Шаг 5.3: классификатор без рандомизации домена — сравнение с run1_cls на seed 42, 43, 44.
+_base_: base.yaml
+run: run1_cls_nodr
+kind: classifier
+data:
+  domain_randomization: false
+train:
+  epochs: 20
+  epochs_frozen: 1                    # у классификатора при замороженном энкодере учится только последний слой

@@ -1,0 +1,53 @@
+﻿path,action,cls_orig,cls_new,reason
+Обучающая выборка/Глиома/G_801.jpg,exclude,glioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Обучающая выборка/Глиома/G_801_BR_.jpg,exclude,glioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Обучающая выборка/Глиома/G_801_DA_.jpg,exclude,glioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Обучающая выборка/Глиома/G_801_HF_.jpg,exclude,glioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Обучающая выборка/Глиома/G_801_RO_.jpg,exclude,glioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Обучающая выборка/Глиома/G_801_SP_.jpg,exclude,glioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Обучающая выборка/Глиома/G_801_VF_.jpg,exclude,glioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Обучающая выборка/Глиома/image(52).jpg,exclude,glioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Обучающая выборка/Менингиома/Tr-me_0196.jpg,exclude,meningioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Тестова выборка/ Менингиома/image(10).jpg,exclude,meningioma,,"конфликт меток, случай 1: снимка нет в Figshare"
+Обучающая выборка/Гипофиз/P_832.jpg,relabel,pituitary,meningioma,Figshare 16.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_832_BR_.jpg,relabel,pituitary,meningioma,Figshare 16.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_832_DA_.jpg,relabel,pituitary,meningioma,Figshare 16.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_832_HF_.jpg,relabel,pituitary,meningioma,Figshare 16.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_832_RO_.jpg,relabel,pituitary,meningioma,Figshare 16.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_832_SP_.jpg,relabel,pituitary,meningioma,Figshare 16.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_832_VF_.jpg,relabel,pituitary,meningioma,Figshare 16.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_833.jpg,relabel,pituitary,meningioma,Figshare 35.mat (пациент 102985): meningioma
+Обучающая выборка/Гипофиз/P_833_BR_.jpg,relabel,pituitary,meningioma,Figshare 35.mat (пациент 102985): meningioma
+Обучающая выборка/Гипофиз/P_833_DA_.jpg,relabel,pituitary,meningioma,Figshare 35.mat (пациент 102985): meningioma
+Обучающая выборка/Гипофиз/P_833_HF_.jpg,relabel,pituitary,meningioma,Figshare 35.mat (пациент 102985): meningioma
+Обучающая выборка/Гипофиз/P_833_RO_.jpg,relabel,pituitary,meningioma,Figshare 35.mat (пациент 102985): meningioma
+Обучающая выборка/Гипофиз/P_833_SP_.jpg,relabel,pituitary,meningioma,Figshare 35.mat (пациент 102985): meningioma
+Обучающая выборка/Гипофиз/P_833_VF_.jpg,relabel,pituitary,meningioma,Figshare 35.mat (пациент 102985): meningioma
+Обучающая выборка/Гипофиз/P_834.jpg,relabel,pituitary,meningioma,Figshare 227.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_834_BR_.jpg,relabel,pituitary,meningioma,Figshare 227.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_834_DA_.jpg,relabel,pituitary,meningioma,Figshare 227.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_834_HF_.jpg,relabel,pituitary,meningioma,Figshare 227.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_834_RO_.jpg,relabel,pituitary,meningioma,Figshare 227.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_834_SP_.jpg,relabel,pituitary,meningioma,Figshare 227.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_834_VF_.jpg,relabel,pituitary,meningioma,Figshare 227.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_836.jpg,relabel,pituitary,meningioma,Figshare 228.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_836_BR_.jpg,relabel,pituitary,meningioma,Figshare 228.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_836_DA_.jpg,relabel,pituitary,meningioma,Figshare 228.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_836_HF_.jpg,relabel,pituitary,meningioma,Figshare 228.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_836_RO_.jpg,relabel,pituitary,meningioma,Figshare 228.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_836_SP_.jpg,relabel,pituitary,meningioma,Figshare 228.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_836_VF_.jpg,relabel,pituitary,meningioma,Figshare 228.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_843.jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_843_BR_.jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_843_DA_.jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_843_HF_.jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_843_RO_.jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_843_SP_.jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/P_843_VF_.jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/Tr-pi_0515.jpg,relabel,pituitary,meningioma,Figshare 35.mat (пациент 102985): meningioma
+Обучающая выборка/Гипофиз/Tr-pi_0520.jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/p (564).jpg,relabel,pituitary,meningioma,Figshare 35.mat (пациент 102985): meningioma
+Обучающая выборка/Гипофиз/p (569).jpg,relabel,pituitary,meningioma,Figshare 229.mat (пациент 101127): meningioma
+Обучающая выборка/Гипофиз/p (570).jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma
+Тестова выборка/Гипофиз/1535.jpg,relabel,pituitary,meningioma,Figshare 229.mat (пациент 101127): meningioma
+Тестова выборка/Гипофиз/image.jpg,relabel,pituitary,meningioma,Figshare 230.mat (пациент 101127): meningioma

@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-10-15 13:12",
+  "git_head_at_freeze": "525c4533debfcaa4f5abc2fced0d2bfee9fb259b",
+  "files": {
+    "classifier.pt": {
+      "source": "models/run1_cls_s42_20261008-120915/best.pt",
+      "md5": "75ce2d9503db0f3005c05fb90b9fcc00"
+    },
+    "segmenter.pt": {
+      "source": "models/run1_seg_neg_s42_20261013-170459/best.pt",
+      "md5": "30eb5f53bf35cee4d7cff0cf6e501a23"
+    },
+    "presence.yaml": {
+      "source": "configs/presence.yaml",
+      "md5": "6e0ea29b5946d25607a0c75c55cbaed7"
+    }
+  },
+  "cls_threshold": 0.976368,
+  "min_area_px": 50
+}

@@ -1,0 +1,44 @@
+# Исходный датасет (read-only, не коммитим)
+mrt/
+
+# Данные и веса не хранятся в git: снимки и кэш — в архивах GitHub Release, финальные веса — в папке models/final/ репозитория
+data/**
+!data/**/
+!data/**/.gitkeep
+# таблицы деления и отбора снимков — публикуются (небольшие, нужны, чтобы проверить данные)
+!data/processed/pool.csv
+!data/processed/splits.csv
+!data/processed/folds_frozen.csv
+!data/processed/review_decisions.csv
+!data/processed/label_fixes.csv
+models/**
+!models/**/
+!models/**/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Окружение
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Streamlit / IDE / ОС
+.streamlit/secrets.toml
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Архивы для загрузки в Kaggle (собираются: python -m src.make_kaggle_bundle)
+kaggle/
+
+# Окружение, которое создают скрипты запуска прототипа (start_windows.bat, start_mac_linux.sh)
+.tools/
+.venv-app/
+
+# Финальные веса публикуются вместе с кодом
+!models/final/*

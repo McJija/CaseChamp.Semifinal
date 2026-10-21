@@ -1,0 +1,21 @@
+﻿path,split,cls,aug,is_original,source,level,fig_id,fig_cls,pid,pid_base,tf,phash_dist,corr,n_exact,align_corr
+Обучающая выборка/Глиома/Tr-gl_0858.jpg,train,glioma,orig,True,kaggle_TrTe,exact,2722,glioma,MR039473B,MR039473,flipH,2,0.9961000084877014,1,0.9908
+Обучающая выборка/Глиома/gg (492).jpg,train,glioma,orig,True,paren,exact,1872,glioma,MR048994,MR048994,id,0,0.9998999834060669,1,0.9995
+Обучающая выборка/Глиома/gg (494).jpg,train,glioma,orig,True,paren,exact,1874,glioma,MR048994,MR048994,id,0,0.9998999834060669,1,0.9996
+Обучающая выборка/Глиома/gg (53).jpg,train,glioma,orig,True,paren,exact,2931,glioma,MR051586,MR051586,id,2,0.9998999834060669,1,0.9997
+Тестова выборка/ Глиома/1309.jpg,test,glioma,orig,True,numeric,exact,3056,glioma,MR029209I,MR029209,flipH,0,0.9994999766349792,1,0.9987
+Тестова выборка/ Глиома/1473.jpg,test,glioma,orig,True,numeric,exact,1882,glioma,MR049142,MR049142,flipH,2,0.9962999820709229,1,0.9934
+Обучающая выборка/Менингиома/1338.jpg,train,meningioma,orig,True,numeric,exact,254,meningioma,103673,103673,id,2,0.9998999834060669,1,0.9996
+Обучающая выборка/Менингиома/1420.jpg,train,meningioma,orig,True,numeric,exact,681,meningioma,98241,98241,flipH,0,0.9951000213623047,1,0.9902
+Обучающая выборка/Менингиома/M_839.jpg,train,meningioma,orig,True,aug_GMPN,exact,645,meningioma,114018,114018,id,0,0.9998999834060669,1,0.9998
+Обучающая выборка/Менингиома/Te-me_0123.jpg,train,meningioma,orig,True,kaggle_TrTe,exact,131,meningioma,111366,111366,id,0,0.9998999834060669,1,0.9996
+Обучающая выборка/Менингиома/Te-me_0266.jpg,train,meningioma,orig,True,kaggle_TrTe,exact,623,meningioma,113098,113098,flipH,0,0.9968000054359436,1,0.9943
+Обучающая выборка/Менингиома/Te-me_0304.jpg,train,meningioma,orig,True,kaggle_TrTe,exact,184,meningioma,97875,97875,flipH,2,0.9969000220298767,1,0.9929
+Обучающая выборка/Менингиома/Tr-me_1120.jpg,train,meningioma,orig,True,kaggle_TrTe,exact,56,meningioma,105374,105374,flipH,0,0.9998999834060669,1,0.9997
+Обучающая выборка/Гипофиз/P_720.jpg,train,pituitary,orig,True,aug_GMPN,exact,926,pituitary,107495,107495,id,0,0.9998999834060669,1,0.9997
+Обучающая выборка/Гипофиз/Tr-pi_0300.jpg,train,pituitary,orig,True,kaggle_TrTe,exact,1039,pituitary,106062,106062,id,0,0.9973000288009644,1,0.9903
+Обучающая выборка/Гипофиз/Tr-pi_1020.jpg,train,pituitary,orig,True,kaggle_TrTe,exact,1326,pituitary,103671,103671,flipH,0,0.9998999834060669,1,0.9996
+Тестова выборка/Гипофиз/1370.jpg,test,pituitary,orig,True,numeric,exact,968,pituitary,109898,109898,id,0,0.9955999851226807,1,0.9869
+Тестова выборка/Гипофиз/1439.jpg,test,pituitary,orig,True,numeric,exact,1310,pituitary,103478,103478,id,0,0.9998999834060669,1,0.9997
+Тестова выборка/Гипофиз/1560.jpg,test,pituitary,orig,True,numeric,exact,1357,pituitary,104558,104558,id,2,0.9977999925613403,1,0.9947
+Тестова выборка/Гипофиз/p (46).jpg,test,pituitary,orig,True,paren,exact,1141,pituitary,112746,112746,id,0,0.9970999956130981,1,0.9908

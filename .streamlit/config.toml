@@ -1,0 +1,6 @@
+# Настройки прототипа: режим просмотра без служебных кнопок разработчика (Deploy, Stop), без сбора статистики.
+[client]
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false

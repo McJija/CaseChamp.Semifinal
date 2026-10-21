@@ -1,0 +1,4 @@
+# Скрипты запуска: .bat — с окончаниями строк Windows (CRLF) без преобразований, shell-скрипты — LF
+*.bat -text
+*.sh text eol=lf
+*.command text eol=lf

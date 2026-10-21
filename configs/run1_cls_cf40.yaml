@@ -1,0 +1,10 @@
+# Эксперимент 5.3а, вторая попытка: контрфактические примеры, 40 эпох вместо 20 (единственное отличие от run1_cls_cf).
+# Причина: у run1_cls_cf ошибка на train остановилась на 0,63 против 0,32 у run1_cls — модель недоучена.
+_base_: base.yaml
+run: run1_cls_cf40
+kind: classifier
+train:
+  epochs: 40
+  epochs_frozen: 1
+  counterfactual:
+    enabled: true

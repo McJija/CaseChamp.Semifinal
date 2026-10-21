@@ -1,0 +1,583 @@
+path,cls,source,group,nt_mode,nt_finding,p0,p1,tumor0,tumor1,pred0,pred1,run
+Обучающая выборка/Гипофиз/1199.jpg,pituitary,other,p00902,,,0.99823,0.99662,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_762.jpg,pituitary,figshare_crop,p00419,,,0.99779,0.99947,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_764.jpg,pituitary,figshare_crop,p00404,,,0.99864,0.9959,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_790.jpg,pituitary,other,p00906,,,0.99998,0.99947,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_808.jpg,pituitary,figshare_crop,p00417,,,0.99887,0.99361,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_810.jpg,pituitary,other,p00493,,,0.99518,0.99281,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_813.jpg,pituitary,other,p00470,,,0.83457,0.89083,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_819.jpg,pituitary,other,p00469,,,0.9864,0.95102,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_823.jpg,pituitary,other,p00505,,,0.99315,0.96818,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_825.jpg,pituitary,other,p00495,,,0.91178,0.77834,True,True,pituitary,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/P_838.jpg,pituitary,other,p00470,,,0.9371,0.89512,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Te-pi_0071.jpg,pituitary,other,p00914,,,0.99728,0.99926,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Te-pi_0172.jpg,pituitary,other,p00486,,,0.99889,0.99874,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_0256.jpg,pituitary,other,p00920,,,0.99869,0.99604,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_0258.jpg,pituitary,other,p00921,,,0.99963,0.98006,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_0303.jpg,pituitary,figshare_crop,p00417,,,0.99999,0.99982,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_0318.jpg,pituitary,other,p00512,,,0.99315,0.9929,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_0604.jpg,pituitary,figshare_crop,p00455,,,0.99974,0.99585,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_0615.jpg,pituitary,other,p00939,,,0.99648,0.98229,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_0676.jpg,pituitary,figshare_crop,p00431,,,0.99308,0.96912,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_0681.jpg,pituitary,other,p00942,,,0.99984,0.99989,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1058.jpg,pituitary,figshare_crop,p00455,,,0.99328,0.99494,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1107.jpg,pituitary,other,p00952,,,0.99903,0.99336,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1140.jpg,pituitary,figshare_crop,p00431,,,0.99353,0.99222,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1141.jpg,pituitary,figshare_crop,p00431,,,0.98602,0.99171,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1150.jpg,pituitary,other,p00955,,,0.99998,0.99804,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1168.jpg,pituitary,figshare_crop,p00404,,,0.99961,0.99591,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1188.jpg,pituitary,other,p00956,,,0.98514,0.98907,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1193.jpg,pituitary,figshare_crop,p00429,,,0.99979,0.99935,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1210.jpg,pituitary,figshare_crop,p00455,,,0.99884,0.98725,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1233.jpg,pituitary,figshare_crop,p00417,,,0.99766,0.99878,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1333.jpg,pituitary,other,p00473,,,0.99997,0.99761,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1349.jpg,pituitary,figshare_crop,p00448,,,0.34351,0.14052,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Гипофиз/Tr-pi_1369.jpg,pituitary,figshare_crop,p00455,,,0.98397,0.98803,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/G_779.jpg,glioma,other,p00525,,,0.96805,0.90118,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/G_800.jpg,glioma,figshare_crop,p00035,,,0.99966,0.9991,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/G_835.jpg,glioma,other,p00011,,,0.99963,0.99946,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Te-gl_0080.jpg,glioma,figshare_crop,p00035,,,0.99868,0.98253,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Te-gl_0101.jpg,glioma,other,p00533,,,0.94398,0.91196,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Te-gl_0114.jpg,glioma,other,p00067,,,0.99791,0.99467,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Tr-gl_0370.jpg,glioma,figshare_crop,p00051,,,0.954,0.90259,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Tr-gl_0433.jpg,glioma,other,p00541,,,0.99992,0.99907,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Tr-gl_0436.jpg,glioma,figshare_crop,p00035,,,0.99964,0.99754,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Tr-gl_0571.jpg,glioma,other,p00547,,,0.99902,0.99575,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Tr-gl_0859.jpg,glioma,figshare_crop,p00051,,,0.99963,0.99961,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Tr-gl_0865.jpg,glioma,figshare_crop,p00051,,,0.99922,0.99973,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Tr-gl_0899.jpg,glioma,figshare_crop,p00051,,,0.9786,0.98911,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Tr-gl_0963.jpg,glioma,other,p00552,,,0.99774,0.99068,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/Tr-gl_1148.jpg,glioma,other,p00566,,,0.14978,0.0497,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/gg (447).jpg,glioma,other,p00574,,,0.99972,0.99858,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/image(19).jpg,glioma,other,p00584,,,0.33022,0.63996,False,True,no_tumor,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/image(31).jpg,glioma,other,p00593,,,0.98363,0.96102,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/image(56).jpg,glioma,other,p00601,,,0.806,0.54412,True,False,meningioma,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Глиома/image(57).jpg,glioma,other,p00602,,,0.99626,0.9748,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1323.jpg,meningioma,other,p00617,,,0.50016,0.18957,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1331.jpg,meningioma,other,p00622,,,0.422,0.17072,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1336.jpg,meningioma,figshare_crop,p00120,,,0.99471,0.9829,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1362.jpg,meningioma,other,p00631,,,0.98722,0.96185,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1374.jpg,meningioma,other,p00176,,,0.88761,0.85085,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1377.jpg,meningioma,other,p00634,,,0.63608,0.72883,False,True,no_tumor,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1401.jpg,meningioma,other,p00116,,,0.72043,0.36474,True,False,pituitary,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1439.jpg,meningioma,figshare_crop,p00083,,,0.99653,0.99022,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1444.jpg,meningioma,other,p00186,,,0.47988,0.29765,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/1446.jpg,meningioma,other,p00653,,,0.98054,0.97832,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/M_872.jpg,meningioma,other,p00659,,,0.99822,0.99441,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Te-me_0069.jpg,meningioma,other,p00196,,,0.53971,0.55451,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Te-me_0102.jpg,meningioma,other,p00147,,,0.98056,0.89978,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Te-me_0145.jpg,meningioma,other,p00103,,,0.99489,0.89506,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Te-me_0150.jpg,meningioma,other,p00165,,,0.99819,0.99458,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Te-me_0151.jpg,meningioma,figshare_crop,p00109,,,0.98119,0.98124,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Te-me_0199.jpg,meningioma,other,p00093,,,0.99935,0.99952,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_0126.jpg,meningioma,other,p00679,,,0.99879,0.99152,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_0186.jpg,meningioma,other,p00688,,,0.99655,0.98706,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_0226.jpg,meningioma,other,p00110,,,0.93465,0.91976,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_0240.jpg,meningioma,other,p00694,,,0.999,0.99473,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_0423.jpg,meningioma,figshare_crop,p00142,,,0.98475,0.9991,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_0446.jpg,meningioma,other,p00702,,,0.97906,0.98811,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_0517.jpg,meningioma,figshare_crop,p00109,,,0.99759,0.99807,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_0548.jpg,meningioma,figshare_crop,p00120,,,0.99103,0.98472,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_0571.jpg,meningioma,other,p00714,,,0.99933,0.99921,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_1034.jpg,meningioma,other,p00734,,,0.99932,0.99741,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_1040.jpg,meningioma,other,p00735,,,0.99941,0.99922,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_1103.jpg,meningioma,figshare_crop,p00156,,,0.99359,0.99596,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_1124.jpg,meningioma,figshare_crop,p00672,,,0.99823,0.9964,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/Tr-me_1167.jpg,meningioma,other,p00744,,,0.93656,0.96418,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/m3 (134).jpg,meningioma,other,p00750,,,0.76339,0.77168,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Обучающая выборка/Менингиома/m3 (139).jpg,meningioma,other,p00755,,,0.23782,0.21588,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1619.jpg,no_tumor,other,p00261,другой режим,норма,0.00754,0.00821,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1654.jpg,no_tumor,other,p00378,другой режим,норма,0.00527,0.00438,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1678.jpg,no_tumor,other,p00769,другой режим,норма,0.00434,0.00486,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1689.jpg,no_tumor,other,p00291,T1,норма,0.01439,0.01316,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1698.jpg,no_tumor,other,p00356,другой режим,другая патология,0.00525,0.00551,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1718.jpg,no_tumor,other,p00212,другой режим,норма,0.00902,0.01661,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1721.jpg,no_tumor,other,p00208,другой режим,норма,0.01115,0.02337,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1797.jpg,no_tumor,other,p00778,T1,норма,0.37892,0.13909,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1799.jpg,no_tumor,other,p00212,другой режим,норма,0.05194,0.0361,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1811.jpg,no_tumor,other,p00274,другой режим,другая патология,0.0195,0.01211,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1824.jpg,no_tumor,other,p00247,другой режим,норма,0.01432,0.01564,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/1874.jpg,no_tumor,other,p00399,другой режим,норма,0.00435,0.00405,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/No13.jpg,no_tumor,other,p00800,T1,норма,0.00951,0.02223,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/No21.jpg,no_tumor,other,p00348,другой режим,норма,0.00209,0.00253,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Te-no_0091.jpg,no_tumor,other,p00795,другой режим,норма,0.01036,0.00778,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Te-no_0224.jpg,no_tumor,other,p00247,другой режим,норма,0.01196,0.02038,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Te-no_0260.jpg,no_tumor,other,p00278,другой режим,норма,0.00422,0.00467,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0021.jpg,no_tumor,other,p00802,T1,норма,0.20271,0.10914,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0083.jpg,no_tumor,other,p00290,T1,норма,0.01922,0.01506,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0087.jpg,no_tumor,other,p00325,T1,норма,0.26048,0.27683,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0089.jpg,no_tumor,other,p00814,другой режим,норма,0.00213,0.00437,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0105.jpg,no_tumor,other,p00820,T1,норма,0.05185,0.03006,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0114.jpg,no_tumor,other,p00364,T1,норма,0.02651,0.02413,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0127.jpg,no_tumor,other,p00826,T1,норма,0.10596,0.05799,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0147.jpg,no_tumor,other,p00378,другой режим,норма,0.00222,0.00264,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0174.jpg,no_tumor,other,p00834,T1,норма,0.15438,0.07036,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0177.jpg,no_tumor,other,p00302,T1,норма,0.15798,0.04721,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0181.jpg,no_tumor,other,p00364,T1,норма,0.03878,0.03821,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0186.jpg,no_tumor,other,p00324,T1,норма,0.33674,0.31806,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0211.jpg,no_tumor,other,p00848,другой режим,другая патология,0.00862,0.00724,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0244.jpg,no_tumor,other,p00345,другой режим,норма,0.00343,0.00314,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0264.jpg,no_tumor,other,p00329,другой режим,норма,0.02301,0.01117,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0271.jpg,no_tumor,other,p00867,другой режим,норма,0.16303,0.12127,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0281.jpg,no_tumor,other,p00870,T1,норма,0.00342,0.00373,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0296.jpg,no_tumor,other,p00290,T1,норма,0.04491,0.02361,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0299.jpg,no_tumor,other,p00878,T1,норма,0.3014,0.53914,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0301.jpg,no_tumor,other,p00879,T1,норма,0.6213,0.34957,True,False,meningioma,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0312.jpg,no_tumor,other,p00881,другой режим,норма,0.02967,0.01565,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0321.jpg,no_tumor,other,p00267,T1,норма,0.02573,0.03501,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0402.jpg,no_tumor,other,p00291,T1,норма,0.00619,0.00321,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0409.jpg,no_tumor,other,p00261,другой режим,норма,0.00343,0.0027,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0447.jpg,no_tumor,other,p00226,другой режим,норма,0.10531,0.03747,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/Tr-no_0596.jpg,no_tumor,other,p00356,другой режим,другая патология,0.00627,0.00469,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/no 98.jpg,no_tumor,other,p00900,T1,норма,0.01348,0.00614,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Обучающая выборка/Опухоли нет/no 99.jpg,no_tumor,other,p00308,другой режим,норма,0.04615,0.02159,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Тестова выборка/ Глиома/1312.jpg,glioma,other,p00059,,,0.99501,0.98325,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+Тестова выборка/Гипофиз/image(30).jpg,pituitary,other,p00499,,,0.98519,0.945,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+Тестова выборка/Опухоли нет/1133.jpg,no_tumor,other,p00225,другой режим,норма,0.18779,0.16395,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Тестова выборка/Опухоли нет/1462.jpg,no_tumor,other,p00377,другой режим,норма,0.02697,0.01213,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Тестова выборка/Опухоли нет/1513.jpg,no_tumor,other,p00387,другой режим,норма,0.0034,0.00187,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+Тестова выборка/Опухоли нет/1542.jpg,no_tumor,other,p00394,другой режим,другая патология,0.00603,0.00378,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+images/1018.png,pituitary,figshare,p00434,,,0.99991,0.99965,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1019.png,pituitary,figshare,p00434,,,0.99957,0.99726,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1020.png,pituitary,figshare,p00434,,,0.9998,0.99932,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/111.png,meningioma,figshare,p00168,,,0.98098,0.95398,True,True,meningioma,pituitary,run1_cls_s42_20261008-120915
+images/112.png,meningioma,figshare,p00168,,,0.99882,0.98955,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1157.png,pituitary,figshare,p00434,,,0.99056,0.99439,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1158.png,pituitary,figshare,p00434,,,0.99936,0.97999,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1159.png,pituitary,figshare,p00434,,,0.99798,0.99864,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1160.png,pituitary,figshare,p00434,,,0.99999,0.99858,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1276.png,pituitary,figshare,p00434,,,0.9998,0.99779,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1277.png,pituitary,figshare,p00434,,,0.98827,0.90378,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1278.png,pituitary,figshare,p00434,,,0.99842,0.99459,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1285.png,pituitary,figshare,p00431,,,0.99574,0.99751,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1286.png,pituitary,figshare,p00431,,,0.99563,0.99919,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1287.png,pituitary,figshare,p00431,,,0.99987,0.99985,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1288.png,pituitary,figshare,p00431,,,0.98813,0.95924,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1310.png,pituitary,figshare,p00404,,,0.99981,0.99766,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1311.png,pituitary,figshare,p00404,,,0.98124,0.87836,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1312.png,pituitary,figshare,p00404,,,0.99074,0.99138,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1313.png,pituitary,figshare,p00404,,,0.98997,0.85096,True,True,meningioma,pituitary,run1_cls_s42_20261008-120915
+images/1314.png,pituitary,figshare,p00404,,,0.99885,0.99602,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1315.png,pituitary,figshare,p00404,,,0.98138,0.68647,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1316.png,pituitary,figshare,p00404,,,0.9971,0.95518,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1340.png,pituitary,figshare,p00448,,,0.92956,0.97743,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1341.png,pituitary,figshare,p00448,,,0.99456,0.98107,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1342.png,pituitary,figshare,p00448,,,0.97932,0.99106,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1343.png,pituitary,figshare,p00448,,,0.99883,0.99716,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1344.png,pituitary,figshare,p00448,,,0.99478,0.99787,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1345.png,pituitary,figshare,p00448,,,0.99152,0.97902,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1346.png,pituitary,figshare,p00448,,,0.99739,0.99404,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1347.png,pituitary,figshare,p00448,,,0.99523,0.9911,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1348.png,pituitary,figshare,p00429,,,0.99999,0.99998,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1349.png,pituitary,figshare,p00429,,,0.99821,0.99388,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/135.png,meningioma,figshare,p00142,,,0.99202,0.97154,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1350.png,pituitary,figshare,p00429,,,0.99763,0.9966,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1351.png,pituitary,figshare,p00429,,,0.99477,0.98928,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/136.png,meningioma,figshare,p00142,,,0.99945,0.98989,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1369.png,pituitary,figshare,p00455,,,0.99919,0.99892,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/137.png,meningioma,figshare,p00142,,,0.99045,0.94198,True,True,glioma,meningioma,run1_cls_s42_20261008-120915
+images/1370.png,pituitary,figshare,p00455,,,0.91612,0.93211,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1371.png,pituitary,figshare,p00455,,,0.99979,0.99491,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1372.png,pituitary,figshare,p00455,,,0.99966,0.99629,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1373.png,pituitary,figshare,p00455,,,0.99967,0.99802,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/138.png,meningioma,figshare,p00142,,,0.97699,0.88425,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/1386.png,pituitary,figshare,p00417,,,0.99981,0.99944,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1387.png,pituitary,figshare,p00417,,,0.99942,0.99841,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1388.png,pituitary,figshare,p00417,,,0.99996,0.99945,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1389.png,pituitary,figshare,p00417,,,0.995,0.94752,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/139.png,meningioma,figshare,p00083,,,0.9998,0.99956,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1390.png,pituitary,figshare,p00417,,,0.93496,0.97206,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1391.png,pituitary,figshare,p00417,,,0.31642,0.26739,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+images/1392.png,pituitary,figshare,p00417,,,0.95852,0.79266,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1393.png,pituitary,figshare,p00417,,,0.63002,0.77521,False,True,no_tumor,pituitary,run1_cls_s42_20261008-120915
+images/1394.png,pituitary,figshare,p00417,,,0.9998,0.99404,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/140.png,meningioma,figshare,p00083,,,0.9996,0.99734,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/141.png,meningioma,figshare,p00083,,,0.99544,0.99523,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1430.png,pituitary,figshare,p00419,,,0.99953,0.99956,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1431.png,pituitary,figshare,p00419,,,0.99992,0.99791,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1432.png,pituitary,figshare,p00419,,,0.99948,0.99922,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1433.png,pituitary,figshare,p00419,,,0.99863,0.99853,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1434.png,pituitary,figshare,p00419,,,0.99382,0.9688,True,True,meningioma,pituitary,run1_cls_s42_20261008-120915
+images/1468.png,pituitary,figshare,p00431,,,0.99603,0.9526,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1469.png,pituitary,figshare,p00431,,,0.99929,0.98846,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1470.png,pituitary,figshare,p00431,,,0.9929,0.97827,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1471.png,pituitary,figshare,p00431,,,0.99855,0.98926,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1498.png,pituitary,figshare,p00404,,,0.99766,0.99396,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1499.png,pituitary,figshare,p00404,,,0.99974,0.99578,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1500.png,pituitary,figshare,p00404,,,0.99992,0.99954,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1501.png,pituitary,figshare,p00404,,,0.99944,0.99783,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1502.png,pituitary,figshare,p00404,,,0.99978,0.98866,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1503.png,pituitary,figshare,p00404,,,0.99266,0.94766,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1504.png,pituitary,figshare,p00404,,,0.99879,0.9941,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1505.png,pituitary,figshare,p00404,,,0.99617,0.96485,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1528.png,pituitary,figshare,p00448,,,0.98065,0.97486,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1529.png,pituitary,figshare,p00448,,,0.84778,0.91671,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1530.png,pituitary,figshare,p00448,,,0.82465,0.87918,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1531.png,pituitary,figshare,p00448,,,0.99533,0.98889,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1532.png,pituitary,figshare,p00448,,,0.99805,0.99827,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1533.png,pituitary,figshare,p00429,,,0.99997,0.99988,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1534.png,pituitary,figshare,p00429,,,0.99982,0.99757,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1535.png,pituitary,figshare,p00429,,,0.9998,0.99723,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1536.png,pituitary,figshare,p00429,,,0.99983,0.99185,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1537.png,pituitary,figshare,p00429,,,0.9999,0.99968,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1552.png,pituitary,figshare,p00455,,,0.9987,0.99645,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1553.png,pituitary,figshare,p00455,,,0.99987,0.99883,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1554.png,pituitary,figshare,p00455,,,0.99916,0.99718,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1555.png,pituitary,figshare,p00455,,,0.9999,0.99609,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1556.png,pituitary,figshare,p00455,,,0.99989,0.99934,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1573.png,pituitary,figshare,p00417,,,0.98685,0.96455,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1574.png,pituitary,figshare,p00417,,,0.98493,0.97937,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1575.png,pituitary,figshare,p00417,,,0.9972,0.9995,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1576.png,pituitary,figshare,p00417,,,0.99676,0.99885,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1577.png,pituitary,figshare,p00417,,,0.99989,0.99984,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1578.png,pituitary,figshare,p00417,,,0.99843,0.99958,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1579.png,pituitary,figshare,p00417,,,0.99999,0.99987,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1580.png,pituitary,figshare,p00417,,,0.99929,0.99966,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1616.png,pituitary,figshare,p00419,,,0.99953,0.99852,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1617.png,pituitary,figshare,p00419,,,0.99801,0.96469,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1618.png,pituitary,figshare,p00419,,,0.99974,0.99978,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1619.png,pituitary,figshare,p00419,,,0.97216,0.98042,True,True,meningioma,pituitary,run1_cls_s42_20261008-120915
+images/1620.png,pituitary,figshare,p00419,,,0.99814,0.99934,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1651.png,pituitary,figshare,p00431,,,0.99857,0.99812,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1652.png,pituitary,figshare,p00431,,,0.96422,0.98645,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1653.png,pituitary,figshare,p00431,,,0.95082,0.95704,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1654.png,pituitary,figshare,p00431,,,0.9926,0.99699,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1684.png,pituitary,figshare,p00404,,,0.98046,0.9333,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1685.png,pituitary,figshare,p00404,,,0.98932,0.98205,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1686.png,pituitary,figshare,p00404,,,0.99065,0.97595,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1687.png,pituitary,figshare,p00404,,,0.90807,0.87708,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1688.png,pituitary,figshare,p00404,,,0.99192,0.89544,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1689.png,pituitary,figshare,p00404,,,0.99708,0.96997,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1690.png,pituitary,figshare,p00404,,,0.99962,0.99376,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1691.png,pituitary,figshare,p00404,,,0.99953,0.99565,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1714.png,pituitary,figshare,p00448,,,0.99667,0.98404,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1715.png,pituitary,figshare,p00448,,,0.97488,0.97023,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1716.png,pituitary,figshare,p00448,,,0.73663,0.84016,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1717.png,pituitary,figshare,p00448,,,0.38104,0.35517,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+images/1718.png,pituitary,figshare,p00448,,,0.57029,0.47587,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+images/1719.png,pituitary,figshare,p00448,,,0.609,0.36287,True,False,pituitary,no_tumor,run1_cls_s42_20261008-120915
+images/1720.png,pituitary,figshare,p00448,,,0.60755,0.80267,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1721.png,pituitary,figshare,p00429,,,0.99951,0.99871,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1722.png,pituitary,figshare,p00429,,,0.99203,0.98917,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1723.png,pituitary,figshare,p00429,,,0.98297,0.94205,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1724.png,pituitary,figshare,p00429,,,0.99659,0.99698,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1741.png,pituitary,figshare,p00455,,,0.99842,0.99745,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1742.png,pituitary,figshare,p00455,,,0.99856,0.97828,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1743.png,pituitary,figshare,p00455,,,0.90392,0.87449,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1744.png,pituitary,figshare,p00455,,,0.99948,0.99788,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1745.png,pituitary,figshare,p00455,,,0.9987,0.99502,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1746.png,pituitary,figshare,p00455,,,0.99865,0.9955,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1747.png,pituitary,figshare,p00455,,,0.99978,0.99651,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1766.png,pituitary,figshare,p00417,,,0.99782,0.97073,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1767.png,pituitary,figshare,p00417,,,0.99611,0.98906,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1768.png,pituitary,figshare,p00417,,,0.98654,0.98209,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1769.png,pituitary,figshare,p00417,,,0.99897,0.9993,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1770.png,pituitary,figshare,p00417,,,0.99902,0.99629,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1771.png,pituitary,figshare,p00417,,,0.99922,0.95843,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1772.png,pituitary,figshare,p00417,,,0.9953,0.9854,True,True,pituitary,meningioma,run1_cls_s42_20261008-120915
+images/1813.png,pituitary,figshare,p00419,,,0.99726,0.99666,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1814.png,pituitary,figshare,p00419,,,0.9965,0.99398,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1815.png,pituitary,figshare,p00419,,,0.99775,0.9977,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1816.png,pituitary,figshare,p00419,,,0.9869,0.94709,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1817.png,pituitary,figshare,p00419,,,0.99766,0.99414,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1818.png,pituitary,figshare,p00419,,,0.99928,0.99774,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1854.png,glioma,figshare,p00026,,,0.99667,0.94462,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1855.png,glioma,figshare,p00026,,,0.97963,0.951,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/1856.png,glioma,figshare,p00026,,,0.93293,0.70501,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1857.png,glioma,figshare,p00026,,,0.98934,0.93877,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1858.png,glioma,figshare,p00026,,,0.99369,0.94618,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1859.png,glioma,figshare,p00026,,,0.98871,0.95307,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1860.png,glioma,figshare,p00026,,,0.98956,0.96012,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/1861.png,glioma,figshare,p00026,,,0.99923,0.9903,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1862.png,glioma,figshare,p00021,,,0.90652,0.64224,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1863.png,glioma,figshare,p00021,,,0.98096,0.98441,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1864.png,glioma,figshare,p00021,,,0.99152,0.93533,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1865.png,glioma,figshare,p00021,,,0.9937,0.88752,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1866.png,glioma,figshare,p00021,,,0.998,0.99742,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1867.png,glioma,figshare,p00021,,,0.999,0.99868,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1868.png,glioma,figshare,p00021,,,0.99905,0.99037,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1869.png,glioma,figshare,p00021,,,0.99952,0.99949,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1893.png,glioma,figshare,p00021,,,0.99382,0.9944,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1894.png,glioma,figshare,p00021,,,0.99786,0.97438,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1895.png,glioma,figshare,p00021,,,0.9981,0.99044,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1896.png,glioma,figshare,p00021,,,0.9994,0.99709,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1897.png,glioma,figshare,p00021,,,0.99943,0.99405,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1898.png,glioma,figshare,p00021,,,0.99878,0.99849,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1914.png,glioma,figshare,p00035,,,0.99953,0.99864,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1915.png,glioma,figshare,p00035,,,0.99836,0.99696,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1916.png,glioma,figshare,p00035,,,0.99638,0.98111,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1917.png,glioma,figshare,p00035,,,0.99788,0.96812,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1918.png,glioma,figshare,p00035,,,0.99221,0.98344,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1919.png,glioma,figshare,p00035,,,0.99871,0.99683,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/192.png,meningioma,figshare,p00120,,,0.99577,0.98975,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1920.png,glioma,figshare,p00035,,,0.99753,0.99662,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/193.png,meningioma,figshare,p00120,,,0.99801,0.9893,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1937.png,glioma,figshare,p00035,,,0.9937,0.9871,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1938.png,glioma,figshare,p00035,,,0.99677,0.96175,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1939.png,glioma,figshare,p00035,,,0.99684,0.96532,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/194.png,meningioma,figshare,p00120,,,0.99895,0.99752,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1940.png,glioma,figshare,p00035,,,0.99926,0.99665,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1941.png,glioma,figshare,p00035,,,0.99682,0.99251,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1942.png,glioma,figshare,p00035,,,0.99986,0.99967,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1943.png,glioma,figshare,p00035,,,0.99706,0.98492,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1944.png,glioma,figshare,p00035,,,0.99897,0.9911,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1948.png,glioma,figshare,p00026,,,0.99322,0.97637,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/1949.png,glioma,figshare,p00026,,,0.99292,0.96559,True,True,pituitary,pituitary,run1_cls_s42_20261008-120915
+images/195.png,meningioma,figshare,p00120,,,0.99705,0.98439,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/196.png,meningioma,figshare,p00120,,,0.99341,0.98413,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1964.png,glioma,figshare,p00036,,,0.98155,0.95484,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/1965.png,glioma,figshare,p00036,,,0.99751,0.99236,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/1966.png,glioma,figshare,p00036,,,0.99565,0.9763,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1967.png,glioma,figshare,p00036,,,0.84225,0.77132,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/1968.png,glioma,figshare,p00036,,,0.99244,0.96329,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/1969.png,glioma,figshare,p00036,,,0.85928,0.73881,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/197.png,meningioma,figshare,p00120,,,0.99812,0.99423,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1970.png,glioma,figshare,p00036,,,0.77877,0.67788,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1971.png,glioma,figshare,p00036,,,0.96496,0.78197,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1972.png,glioma,figshare,p00036,,,0.98508,0.96742,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/1973.png,glioma,figshare,p00036,,,0.98924,0.99004,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/20.png,meningioma,figshare,p00109,,,0.99615,0.98664,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2077.png,glioma,figshare,p00031,,,0.99688,0.99208,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2078.png,glioma,figshare,p00031,,,0.9984,0.99331,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2079.png,glioma,figshare,p00031,,,0.99503,0.95692,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2083.png,glioma,figshare,p00044,,,0.99807,0.99669,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2084.png,glioma,figshare,p00044,,,0.99951,0.99815,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2085.png,glioma,figshare,p00044,,,0.99905,0.99508,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2086.png,glioma,figshare,p00044,,,0.99746,0.99779,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/21.png,meningioma,figshare,p00109,,,0.99906,0.98523,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2104.png,glioma,figshare,p00036,,,0.94386,0.98091,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2105.png,glioma,figshare,p00036,,,0.99313,0.97688,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2106.png,glioma,figshare,p00036,,,0.99889,0.99941,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2107.png,glioma,figshare,p00036,,,0.99921,0.98948,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2108.png,glioma,figshare,p00036,,,0.99974,0.99924,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2166.png,glioma,figshare,p00051,,,0.99773,0.98546,True,True,meningioma,pituitary,run1_cls_s42_20261008-120915
+images/2167.png,glioma,figshare,p00051,,,0.981,0.91677,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/2168.png,glioma,figshare,p00051,,,0.76161,0.54701,True,False,meningioma,no_tumor,run1_cls_s42_20261008-120915
+images/2169.png,glioma,figshare,p00051,,,0.90683,0.76588,True,True,meningioma,pituitary,run1_cls_s42_20261008-120915
+images/2170.png,glioma,figshare,p00051,,,0.90715,0.61602,True,False,meningioma,no_tumor,run1_cls_s42_20261008-120915
+images/2171.png,glioma,figshare,p00051,,,0.97345,0.93413,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2172.png,glioma,figshare,p00051,,,0.98131,0.91777,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2173.png,glioma,figshare,p00051,,,0.99708,0.98254,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2186.png,glioma,figshare,p00051,,,0.97232,0.92564,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2187.png,glioma,figshare,p00051,,,0.99857,0.98596,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2188.png,glioma,figshare,p00051,,,0.99794,0.99546,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2189.png,glioma,figshare,p00051,,,0.99013,0.98104,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2190.png,glioma,figshare,p00051,,,0.99726,0.99648,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2191.png,glioma,figshare,p00051,,,0.9996,0.99712,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2192.png,glioma,figshare,p00051,,,0.99952,0.99918,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2193.png,glioma,figshare,p00051,,,0.99939,0.99947,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2194.png,glioma,figshare,p00051,,,0.99727,0.98916,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2195.png,glioma,figshare,p00051,,,0.99963,0.99516,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/22.png,meningioma,figshare,p00109,,,0.98238,0.93588,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2254.png,glioma,figshare,p00021,,,0.99976,0.99947,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2255.png,glioma,figshare,p00021,,,0.99979,0.99979,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2256.png,glioma,figshare,p00021,,,0.99997,0.99985,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2257.png,glioma,figshare,p00021,,,0.99998,0.99955,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2258.png,glioma,figshare,p00021,,,0.9993,0.99783,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2259.png,glioma,figshare,p00021,,,0.99987,0.99954,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2260.png,glioma,figshare,p00021,,,0.99982,0.99925,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2270.png,glioma,figshare,p00035,,,0.99946,0.99673,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2271.png,glioma,figshare,p00035,,,0.99793,0.99759,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2272.png,glioma,figshare,p00035,,,0.99992,0.99914,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2273.png,glioma,figshare,p00035,,,0.99991,0.99977,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2274.png,glioma,figshare,p00035,,,0.99927,0.99902,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2275.png,glioma,figshare,p00035,,,0.99992,0.99988,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2276.png,glioma,figshare,p00035,,,0.99291,0.99782,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2277.png,glioma,figshare,p00035,,,0.99779,0.99925,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2278.png,glioma,figshare,p00035,,,0.99877,0.99739,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2286.png,glioma,figshare,p00035,,,0.99931,0.99814,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2287.png,glioma,figshare,p00035,,,0.99806,0.99749,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2288.png,glioma,figshare,p00035,,,0.9991,0.99639,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2289.png,glioma,figshare,p00035,,,0.99965,0.99951,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2290.png,glioma,figshare,p00035,,,0.99959,0.99873,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2291.png,glioma,figshare,p00035,,,0.99968,0.99948,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2292.png,glioma,figshare,p00035,,,0.99997,0.99946,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2293.png,glioma,figshare,p00035,,,0.99867,0.99482,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2294.png,glioma,figshare,p00035,,,0.99987,0.99958,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2295.png,glioma,figshare,p00035,,,0.99956,0.99928,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2296.png,glioma,figshare,p00035,,,0.99961,0.9996,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2297.png,glioma,figshare,p00035,,,0.99982,0.99941,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2298.png,glioma,figshare,p00035,,,0.99986,0.99978,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2299.png,glioma,figshare,p00035,,,0.99957,0.9992,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/23.png,meningioma,figshare,p00109,,,0.991,0.97741,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/231.png,meningioma,figshare,p00109,,,0.99291,0.99057,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2311.png,glioma,figshare,p00036,,,0.99979,0.99948,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2312.png,glioma,figshare,p00036,,,0.99993,0.99963,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2313.png,glioma,figshare,p00036,,,0.99982,0.99943,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2314.png,glioma,figshare,p00036,,,0.99969,0.99867,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2315.png,glioma,figshare,p00036,,,0.9992,0.99773,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2316.png,glioma,figshare,p00036,,,0.99847,0.99654,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/232.png,meningioma,figshare,p00109,,,0.99374,0.95513,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/233.png,meningioma,figshare,p00109,,,0.98979,0.83147,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/234.png,meningioma,figshare,p00109,,,0.99821,0.99355,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/235.png,meningioma,figshare,p00109,,,0.98988,0.97252,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/240.png,meningioma,figshare,p00139,,,0.99837,0.99508,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/241.png,meningioma,figshare,p00139,,,0.99826,0.99098,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2420.png,glioma,figshare,p00026,,,0.99501,0.9782,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2421.png,glioma,figshare,p00026,,,0.99843,0.99005,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2422.png,glioma,figshare,p00026,,,0.99932,0.99698,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2423.png,glioma,figshare,p00026,,,0.99965,0.99818,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2424.png,glioma,figshare,p00026,,,0.99904,0.99504,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2425.png,glioma,figshare,p00026,,,0.99536,0.99637,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2426.png,glioma,figshare,p00021,,,0.99968,0.99869,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2427.png,glioma,figshare,p00021,,,0.99948,0.98664,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2428.png,glioma,figshare,p00021,,,0.99893,0.99767,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2429.png,glioma,figshare,p00021,,,0.99926,0.99818,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2430.png,glioma,figshare,p00021,,,0.99995,0.99905,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2431.png,glioma,figshare,p00021,,,0.99929,0.99297,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2432.png,glioma,figshare,p00021,,,0.99778,0.99465,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2433.png,glioma,figshare,p00021,,,0.99605,0.97704,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2434.png,glioma,figshare,p00021,,,0.99916,0.99769,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2442.png,glioma,figshare,p00051,,,0.99882,0.99845,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/252.png,meningioma,figshare,p00720,,,0.99177,0.97239,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2608.png,glioma,figshare,p00031,,,0.99955,0.99574,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2609.png,glioma,figshare,p00031,,,0.999,0.99354,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2610.png,glioma,figshare,p00031,,,0.99671,0.99169,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2611.png,glioma,figshare,p00031,,,0.99721,0.99517,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2612.png,glioma,figshare,p00044,,,0.9998,0.99935,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2613.png,glioma,figshare,p00044,,,0.99913,0.99893,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2614.png,glioma,figshare,p00044,,,0.99788,0.9972,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2615.png,glioma,figshare,p00044,,,0.99905,0.99787,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2616.png,glioma,figshare,p00044,,,0.99697,0.98788,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2634.png,glioma,figshare,p00036,,,0.99995,0.99993,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2635.png,glioma,figshare,p00036,,,0.99996,0.9998,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2636.png,glioma,figshare,p00036,,,0.9998,0.99974,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2637.png,glioma,figshare,p00036,,,0.9999,0.99971,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2638.png,glioma,figshare,p00036,,,0.99863,0.99471,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2639.png,glioma,figshare,p00036,,,0.99567,0.99538,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2640.png,glioma,figshare,p00036,,,0.99977,0.99841,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/27.png,meningioma,figshare,p00139,,,0.97187,0.65787,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2702.png,glioma,figshare,p00051,,,0.98914,0.9817,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2703.png,glioma,figshare,p00051,,,0.97871,0.94997,True,True,glioma,meningioma,run1_cls_s42_20261008-120915
+images/2704.png,glioma,figshare,p00051,,,0.98785,0.98073,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2705.png,glioma,figshare,p00051,,,0.99283,0.94087,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2706.png,glioma,figshare,p00051,,,0.9935,0.98795,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2707.png,glioma,figshare,p00051,,,0.99886,0.99899,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2708.png,glioma,figshare,p00051,,,0.99705,0.99537,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2709.png,glioma,figshare,p00051,,,0.99457,0.99685,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2723.png,glioma,figshare,p00051,,,0.99996,0.99986,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2724.png,glioma,figshare,p00051,,,0.99999,0.99994,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2725.png,glioma,figshare,p00051,,,0.99972,0.99955,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2726.png,glioma,figshare,p00051,,,0.99899,0.99862,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2727.png,glioma,figshare,p00051,,,0.99896,0.98994,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2728.png,glioma,figshare,p00051,,,0.9994,0.99809,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2729.png,glioma,figshare,p00051,,,0.99972,0.99858,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2730.png,glioma,figshare,p00051,,,0.9996,0.99872,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2769.png,glioma,figshare,p00051,,,0.99858,0.99371,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2770.png,glioma,figshare,p00051,,,0.99741,0.99185,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2771.png,glioma,figshare,p00051,,,0.99852,0.99575,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/2772.png,glioma,figshare,p00051,,,0.99823,0.99673,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2773.png,glioma,figshare,p00051,,,0.98799,0.97854,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2837.png,glioma,figshare,p00026,,,0.99776,0.98952,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2838.png,glioma,figshare,p00026,,,0.99924,0.99842,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2839.png,glioma,figshare,p00026,,,0.9997,0.99322,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2840.png,glioma,figshare,p00021,,,0.9996,0.99933,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2841.png,glioma,figshare,p00021,,,0.99986,0.99971,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2842.png,glioma,figshare,p00021,,,0.99939,0.99979,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2843.png,glioma,figshare,p00021,,,0.99962,0.99828,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2844.png,glioma,figshare,p00021,,,0.99985,0.99439,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2845.png,glioma,figshare,p00021,,,0.99818,0.99076,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2876.png,glioma,figshare,p00035,,,0.99862,0.99595,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2877.png,glioma,figshare,p00035,,,0.99939,0.99829,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2878.png,glioma,figshare,p00035,,,0.99917,0.99795,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2879.png,glioma,figshare,p00035,,,0.99991,0.99902,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2880.png,glioma,figshare,p00035,,,0.99959,0.99907,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2881.png,glioma,figshare,p00035,,,0.99899,0.99959,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2882.png,glioma,figshare,p00035,,,0.99854,0.99862,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2883.png,glioma,figshare,p00035,,,0.99962,0.99919,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2884.png,glioma,figshare,p00035,,,0.99756,0.98546,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2900.png,glioma,figshare,p00036,,,0.99489,0.99563,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2901.png,glioma,figshare,p00036,,,0.99909,0.9987,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2902.png,glioma,figshare,p00036,,,0.99916,0.99922,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2903.png,glioma,figshare,p00036,,,0.99912,0.99476,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2904.png,glioma,figshare,p00036,,,0.99974,0.99843,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2905.png,glioma,figshare,p00036,,,0.99883,0.99525,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/299.png,meningioma,figshare,p00156,,,0.99775,0.99725,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/2993.png,glioma,figshare,p00031,,,0.99679,0.99155,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2994.png,glioma,figshare,p00031,,,0.99914,0.99692,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/2995.png,glioma,figshare,p00031,,,0.9958,0.99204,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/300.png,meningioma,figshare,p00156,,,0.99923,0.99879,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/301.png,meningioma,figshare,p00156,,,0.99801,0.99836,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/3014.png,glioma,figshare,p00036,,,0.99281,0.99381,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/3015.png,glioma,figshare,p00036,,,0.99896,0.99671,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/3016.png,glioma,figshare,p00036,,,0.99916,0.99785,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/3017.png,glioma,figshare,p00036,,,0.99915,0.98338,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/3018.png,glioma,figshare,p00036,,,0.99888,0.99387,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/3019.png,glioma,figshare,p00036,,,0.99996,0.99979,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/302.png,meningioma,figshare,p00156,,,0.99701,0.99018,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/303.png,meningioma,figshare,p00156,,,0.99832,0.99925,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/332.png,meningioma,figshare,p00168,,,0.99929,0.99905,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/333.png,meningioma,figshare,p00168,,,0.9935,0.91677,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/34.png,meningioma,figshare,p00720,,,0.39635,0.19058,False,False,no_tumor,no_tumor,run1_cls_s42_20261008-120915
+images/362.png,meningioma,figshare,p00142,,,0.98835,0.9828,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/363.png,meningioma,figshare,p00142,,,0.99707,0.98108,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/364.png,meningioma,figshare,p00142,,,0.98222,0.99931,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/365.png,meningioma,figshare,p00142,,,0.99619,0.99858,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/366.png,meningioma,figshare,p00083,,,0.99537,0.99622,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/367.png,meningioma,figshare,p00083,,,0.99762,0.99109,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/368.png,meningioma,figshare,p00083,,,0.99804,0.99791,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/369.png,meningioma,figshare,p00083,,,0.99827,0.99786,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/423.png,meningioma,figshare,p00120,,,0.99907,0.99833,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/424.png,meningioma,figshare,p00120,,,0.99732,0.99666,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/425.png,meningioma,figshare,p00120,,,0.99527,0.98777,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/426.png,meningioma,figshare,p00120,,,0.98936,0.98559,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/427.png,meningioma,figshare,p00120,,,0.99296,0.9718,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/428.png,meningioma,figshare,p00120,,,0.99896,0.99873,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/429.png,meningioma,figshare,p00120,,,0.98866,0.99163,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/465.png,meningioma,figshare,p00109,,,0.99975,0.99971,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/466.png,meningioma,figshare,p00109,,,0.99617,0.99313,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/467.png,meningioma,figshare,p00109,,,0.99346,0.99354,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/468.png,meningioma,figshare,p00109,,,0.99686,0.998,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/469.png,meningioma,figshare,p00109,,,0.9994,0.99858,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/470.png,meningioma,figshare,p00109,,,0.99976,0.99879,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/478.png,meningioma,figshare,p00139,,,0.99764,0.99683,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/479.png,meningioma,figshare,p00139,,,0.97255,0.97224,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/489.png,meningioma,figshare,p00720,,,0.51828,0.92675,False,True,no_tumor,meningioma,run1_cls_s42_20261008-120915
+images/533.png,meningioma,figshare,p00156,,,0.9984,0.99714,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/534.png,meningioma,figshare,p00156,,,0.99781,0.99613,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/535.png,meningioma,figshare,p00156,,,0.99874,0.99892,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/536.png,meningioma,figshare,p00156,,,0.99825,0.99617,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/537.png,meningioma,figshare,p00156,,,0.99368,0.99712,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/538.png,meningioma,figshare,p00156,,,0.98953,0.99485,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/539.png,meningioma,figshare,p00156,,,0.98997,0.99565,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/560.png,meningioma,figshare,p00672,,,0.99766,0.99612,True,True,glioma,meningioma,run1_cls_s42_20261008-120915
+images/561.png,meningioma,figshare,p00672,,,0.99702,0.99154,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/562.png,meningioma,figshare,p00672,,,0.99568,0.99526,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/563.png,meningioma,figshare,p00672,,,0.99747,0.9974,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/569.png,meningioma,figshare,p00168,,,0.99185,0.96915,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/570.png,meningioma,figshare,p00168,,,0.98735,0.98737,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/597.png,meningioma,figshare,p00743,,,0.99677,0.99274,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/598.png,meningioma,figshare,p00743,,,0.99628,0.9941,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/599.png,meningioma,figshare,p00142,,,0.99932,0.99968,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/600.png,meningioma,figshare,p00142,,,0.99989,0.99773,True,True,glioma,meningioma,run1_cls_s42_20261008-120915
+images/601.png,meningioma,figshare,p00142,,,0.99892,0.99384,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/602.png,meningioma,figshare,p00142,,,0.99152,0.98756,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/603.png,meningioma,figshare,p00083,,,0.99252,0.98758,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/604.png,meningioma,figshare,p00083,,,0.98791,0.99576,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/605.png,meningioma,figshare,p00083,,,0.99793,0.99623,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/655.png,meningioma,figshare,p00614,,,0.99951,0.99902,True,True,glioma,glioma,run1_cls_s42_20261008-120915
+images/656.png,meningioma,figshare,p00614,,,0.99971,0.99953,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/657.png,meningioma,figshare,p00614,,,0.99775,0.99589,True,True,meningioma,glioma,run1_cls_s42_20261008-120915
+images/658.png,meningioma,figshare,p00614,,,0.99086,0.99568,True,True,meningioma,pituitary,run1_cls_s42_20261008-120915
+images/680.png,meningioma,figshare,p00120,,,0.98334,0.98565,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/681.png,meningioma,figshare,p00120,,,0.98762,0.9926,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/682.png,meningioma,figshare,p00120,,,0.99371,0.99413,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/683.png,meningioma,figshare,p00120,,,0.97929,0.98664,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/684.png,meningioma,figshare,p00120,,,0.99975,0.99947,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/685.png,meningioma,figshare,p00120,,,0.9986,0.99832,True,True,meningioma,pituitary,run1_cls_s42_20261008-120915
+images/722.png,glioma,figshare,p00074,,,0.99832,0.99641,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/723.png,glioma,figshare,p00074,,,0.95923,0.71682,True,False,meningioma,no_tumor,run1_cls_s42_20261008-120915
+images/724.png,glioma,figshare,p00074,,,0.999,0.99189,True,True,meningioma,pituitary,run1_cls_s42_20261008-120915
+images/73.png,meningioma,figshare,p00156,,,0.99776,0.98236,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/74.png,meningioma,figshare,p00156,,,0.99702,0.98236,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/75.png,meningioma,figshare,p00156,,,0.9971,0.96471,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/76.png,meningioma,figshare,p00156,,,0.99802,0.98695,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/761.png,glioma,figshare,p00074,,,0.99333,0.95957,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/762.png,glioma,figshare,p00074,,,0.98603,0.96976,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/763.png,glioma,figshare,p00074,,,0.9983,0.98774,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/77.png,meningioma,figshare,p00156,,,0.99897,0.99008,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/78.png,meningioma,figshare,p00156,,,0.99961,0.99865,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/79.png,meningioma,figshare,p00156,,,0.99957,0.99943,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/837.png,glioma,figshare,p00074,,,0.99353,0.99801,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/838.png,glioma,figshare,p00074,,,0.98831,0.99,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915
+images/839.png,glioma,figshare,p00074,,,0.99468,0.97549,True,True,meningioma,meningioma,run1_cls_s42_20261008-120915

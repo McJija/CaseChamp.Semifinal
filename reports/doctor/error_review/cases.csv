@@ -1,0 +1,58 @@
+﻿case,page,category,path,root,mask,has_mask,group,cls,answer,confidence,p_tumor,mask_area,flag,flag_reason,source,nt_mode,nt_finding,dice
+1,1,A,images/1970.png,figshare,masks/1970.png,True,p00036,glioma,no_tumor,0.2212347388267517,0.7787652611732483,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+2,1,A,Обучающая выборка/Менингиома/1401.jpg,case,,False,p00116,meningioma,no_tumor,0.2795657813549042,0.7204341888427734,0,True,"классификатор подозревает опухоль, но область не выделена",other,,,
+3,1,A,Обучающая выборка/Опухоли нет/Tr-no_0087.jpg,case,,False,p00325,no_tumor,pituitary,0.1640783995389938,0.2604821324348449,846,True,"классификатор не видит опухоли, но сегментатор выделил область",other,T1,норма,
+4,1,A,images/1529.png,figshare,masks/1529.png,True,p00448,pituitary,no_tumor,0.1522176712751388,0.8477823138237,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+5,2,A,images/1719.png,figshare,masks/1719.png,True,p00448,pituitary,no_tumor,0.3909972012042999,0.6090028285980225,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+6,2,A,images/34.png,figshare,masks/34.png,True,p00720,meningioma,no_tumor,0.6036519408226013,0.3963480591773987,0,False,,figshare,,,0.0
+7,2,B,images/2837.png,figshare,masks/2837.png,True,p00026,glioma,glioma,0.983784556388855,0.9977563619613647,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+8,2,B,images/2839.png,figshare,masks/2839.png,True,p00026,glioma,glioma,0.9964842796325684,0.9997019171714784,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+9,3,B,images/2634.png,figshare,masks/2634.png,True,p00036,glioma,glioma,0.9967457056045532,0.9999464750289916,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+10,3,B,images/2639.png,figshare,masks/2639.png,True,p00036,glioma,glioma,0.9396268725395204,0.9956696629524232,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+11,3,B,images/2167.png,figshare,masks/2167.png,True,p00051,glioma,meningioma,0.5237745046615601,0.9810049533843994,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+12,3,B,images/2702.png,figshare,masks/2702.png,True,p00051,glioma,meningioma,0.8930692076683044,0.9891367554664612,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+13,4,B,images/2708.png,figshare,masks/2708.png,True,p00051,glioma,meningioma,0.9009701609611512,0.9970481991767884,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+14,4,B,images/2709.png,figshare,masks/2709.png,True,p00051,glioma,meningioma,0.6849982738494873,0.994570791721344,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+15,4,B,Обучающая выборка/Менингиома/1444.jpg,case,,False,p00186,meningioma,pituitary,0.1790044903755188,0.4798811078071594,2232,True,"классификатор не видит опухоли, но сегментатор выделил область",other,,,
+16,4,B,Обучающая выборка/Менингиома/Te-me_0069.jpg,case,,False,p00196,meningioma,pituitary,0.3304004371166229,0.5397090315818787,234,True,"классификатор не видит опухоли, но сегментатор выделил область",other,,,
+17,5,B,images/1391.png,figshare,masks/1391.png,True,p00417,pituitary,pituitary,0.2237670421600341,0.3164226412773132,911,True,"классификатор не видит опухоли, но сегментатор выделил область",figshare,,,0.949658396260338
+18,5,B,images/1718.png,figshare,masks/1718.png,True,p00448,pituitary,pituitary,0.4085375070571899,0.5702923536300659,654,True,"классификатор не видит опухоли, но сегментатор выделил область",figshare,,,0.9284755512943432
+19,5,B,Обучающая выборка/Гипофиз/Tr-pi_1349.jpg,case,,False,p00448,pituitary,pituitary,0.187578871846199,0.3435098528861999,275,True,"классификатор не видит опухоли, но сегментатор выделил область",figshare_crop,,,
+20,5,B,Обучающая выборка/Глиома/Tr-gl_1148.jpg,case,,False,p00566,glioma,meningioma,0.0965291261672973,0.1497808098793029,2020,True,"классификатор не видит опухоли, но сегментатор выделил область",other,,,
+21,6,B,Обучающая выборка/Глиома/image(19).jpg,case,,False,p00584,glioma,meningioma,0.261022001504898,0.3302178382873535,929,True,"классификатор не видит опухоли, но сегментатор выделил область",other,,,
+22,6,B,Обучающая выборка/Менингиома/1323.jpg,case,,False,p00617,meningioma,meningioma,0.3289539515972137,0.5001599192619324,878,True,"классификатор не видит опухоли, но сегментатор выделил область",other,,,
+23,6,B,Обучающая выборка/Менингиома/1331.jpg,case,,False,p00622,meningioma,glioma,0.2561395168304443,0.4220021367073059,99,True,"классификатор не видит опухоли, но сегментатор выделил область",other,,,
+24,6,B,images/252.png,figshare,masks/252.png,True,p00720,meningioma,meningioma,0.8714448809623718,0.991766095161438,0,True,"классификатор подозревает опухоль, но область не выделена",figshare,,,0.0
+25,7,B,Обучающая выборка/Менингиома/m3 (139).jpg,case,,False,p00755,meningioma,meningioma,0.21639484167099,0.2378175258636474,4086,True,"классификатор не видит опухоли, но сегментатор выделил область",other,,,
+26,7,C,images/1863.png,figshare,masks/1863.png,True,p00021,glioma,meningioma,0.834589958190918,0.9809591174125672,1324,False,,figshare,,,0.7352332797058148
+27,7,C,images/1867.png,figshare,masks/1867.png,True,p00021,glioma,meningioma,0.9692821502685548,0.9989996552467346,1648,False,,figshare,,,0.933383515242755
+28,7,C,images/1860.png,figshare,masks/1860.png,True,p00026,glioma,meningioma,0.5225782990455627,0.989560067653656,4216,False,,figshare,,,0.8268348623853211
+29,8,C,images/1949.png,figshare,masks/1949.png,True,p00026,glioma,pituitary,0.7322891354560852,0.9929213523864746,403,False,,figshare,,,0.21194663432383262
+30,8,C,images/1964.png,figshare,masks/1964.png,True,p00036,glioma,meningioma,0.497649222612381,0.9815523028373718,987,False,,figshare,,,0.7748125937031485
+31,8,C,images/1965.png,figshare,masks/1965.png,True,p00036,glioma,meningioma,0.6936447620391846,0.9975138306617736,1587,False,,figshare,,,0.8365933170334149
+32,8,C,images/2705.png,figshare,masks/2705.png,True,p00051,glioma,meningioma,0.7358229756355286,0.9928264617919922,142,False,,figshare,,,0.15547457921221586
+33,9,C,images/2707.png,figshare,masks/2707.png,True,p00051,glioma,meningioma,0.9333639740943908,0.9988630414009094,157,False,,figshare,,,0.27845884413309985
+34,9,C,images/723.png,figshare,masks/723.png,True,p00074,glioma,meningioma,0.7595170140266418,0.9592309594154358,404,False,,figshare,,,0.7797856049004595
+35,9,C,images/838.png,figshare,masks/838.png,True,p00074,glioma,meningioma,0.8639732003211975,0.9883092641830444,906,False,,figshare,,,0.8012381162944948
+36,9,C,Обучающая выборка/Менингиома/Tr-me_0226.jpg,case,,False,p00110,meningioma,glioma,0.7882387638092041,0.9346462488174438,2704,False,,other,,,
+37,10,C,images/136.png,figshare,masks/136.png,True,p00142,meningioma,glioma,0.6021305918693542,0.99945467710495,3835,False,,figshare,,,0.6795392502829749
+38,10,C,images/365.png,figshare,masks/365.png,True,p00142,meningioma,glioma,0.9504518508911132,0.9961868524551392,1705,False,,figshare,,,0.7962400861646921
+39,10,C,images/112.png,figshare,masks/112.png,True,p00168,meningioma,pituitary,0.7699552178382874,0.9988164901733398,934,False,,figshare,,,0.8310517529215359
+40,10,C,Обучающая выборка/Менингиома/1374.jpg,case,,False,p00176,meningioma,glioma,0.7562111616134644,0.8876078128814697,1396,False,,other,,,
+41,11,C,images/1313.png,figshare,masks/1313.png,True,p00404,pituitary,meningioma,0.5315655469894409,0.9899712800979614,467,False,,figshare,,,0.940458902120244
+42,11,C,images/1314.png,figshare,masks/1314.png,True,p00404,pituitary,meningioma,0.8195109367370605,0.9988455772399902,514,False,,figshare,,,0.9433962264150944
+43,11,C,images/1573.png,figshare,masks/1573.png,True,p00417,pituitary,meningioma,0.5768692493438721,0.986847162246704,193,False,,figshare,,,0.8744710860366713
+44,11,C,images/1574.png,figshare,masks/1574.png,True,p00417,pituitary,meningioma,0.6992340087890625,0.9849255681037904,429,False,,figshare,,,0.7382297551789078
+45,12,C,images/1434.png,figshare,masks/1434.png,True,p00419,pituitary,meningioma,0.5553775429725647,0.99382483959198,610,False,,figshare,,,0.4316285817918027
+46,12,C,images/1616.png,figshare,masks/1616.png,True,p00419,pituitary,meningioma,0.9216133952140808,0.9995310306549072,57,False,,figshare,,,0.5094850948509485
+47,12,C,Обучающая выборка/Гипофиз/P_819.jpg,case,,False,p00469,pituitary,meningioma,0.43520388007164,0.9864031672477722,3113,False,,other,,,
+48,12,C,Тестова выборка/Гипофиз/image(30).jpg,case,,False,p00499,pituitary,meningioma,0.9092905521392822,0.9851928353309632,509,False,,other,,,
+49,13,C,Обучающая выборка/Глиома/gg (447).jpg,case,,False,p00574,glioma,meningioma,0.7690392136573792,0.9997200965881348,975,False,,other,,,
+50,13,C,Обучающая выборка/Глиома/image(56).jpg,case,,False,p00601,glioma,meningioma,0.4988217055797577,0.806001603603363,1082,False,,other,,,
+51,13,C,Обучающая выборка/Глиома/image(57).jpg,case,,False,p00602,glioma,pituitary,0.7133682370185852,0.9962565898895264,1837,False,,other,,,
+52,13,C,images/655.png,figshare,masks/655.png,True,p00614,meningioma,glioma,0.9089515805244446,0.9995103478431702,3209,False,,figshare,,,0.4391597304795878
+53,14,C,images/560.png,figshare,masks/560.png,True,p00672,meningioma,glioma,0.5691307187080383,0.9976589679718018,1757,False,,figshare,,,0.7407922168172342
+54,14,C,images/563.png,figshare,masks/563.png,True,p00672,meningioma,glioma,0.6636228561401367,0.9974663257598876,3525,False,,figshare,,,0.4516855263937437
+55,14,C,Обучающая выборка/Менингиома/Tr-me_0126.jpg,case,,False,p00679,meningioma,pituitary,0.923687756061554,0.998785674571991,327,False,,other,,,
+56,14,C,Обучающая выборка/Менингиома/Tr-me_0186.jpg,case,,False,p00688,meningioma,pituitary,0.7329607009887695,0.9965499639511108,2293,False,,other,,,
+57,15,C,Обучающая выборка/Менингиома/m3 (134).jpg,case,,False,p00750,meningioma,glioma,0.7108977437019348,0.7633852958679199,2686,False,,other,,,

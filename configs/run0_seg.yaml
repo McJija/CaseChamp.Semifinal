@@ -1,0 +1,7 @@
+# Запуск 0 (пробный), сегментатор: проверка конвейера и замер времени эпохи. Результаты в выбор модели не идут.
+_base_: base.yaml
+run: run0_seg
+kind: segmenter
+train:
+  epochs: 3
+  epochs_frozen: 1

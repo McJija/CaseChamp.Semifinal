@@ -1,0 +1,2 @@
+run,config,seed,commit,split,n_answer_tumor,n_paired,flip_rate_all,drop_p_all,flip_rate,flip_rate_control,flip_rate_minus_control,drop_p,drop_p_control
+run1_cls_s42_20261008-120915,run1_cls,42,3cab42c,test,438,334,0.0,0.0009,0.0,0.0,0.0,0.0003,-0.0036

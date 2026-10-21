@@ -1,0 +1,65 @@
+# Порог решения «опухоль есть» по двум моделям (src/presence.py). Подобран только на val.
+rule: опухоль есть, если площадь маски сегментатора > min_area_px ИЛИ p_tumor классификатора
+  ≥ cls_threshold
+cls_threshold: 0.976368
+min_area_px: 50
+recall_floor: 0.985
+chosen_on: val
+classifier: run1_cls_s42_*
+segmenter: run1_seg_neg_s42_*
+date: 2026-10-14 13:27
+val:
+  n_tumor: 469
+  n_no_tumor: 56
+  recall: 0.9936
+  tumors_found: 466
+  specificity: 1.0
+  no_tumor_correct: 56
+  found_figshare: 389/391
+  found_figshare_crop: 18/18
+  found_other: 59/60
+  no_tumor_correct_T1: 20/20
+  no_tumor_correct_другой режим: 36/36
+  classifier_alone:
+    recall: 0.9872
+    no_tumor_correct: 50
+  flag_models_disagree:
+    no_tumor: 6
+    tumor: 19
+val_other_segmenter_seeds:
+  run1_seg_neg_s43_*:
+    n_tumor: 469
+    n_no_tumor: 56
+    recall: 0.9915
+    tumors_found: 465
+    specificity: 0.9821
+    no_tumor_correct: 55
+    found_figshare: 389/391
+    found_figshare_crop: 18/18
+    found_other: 58/60
+    no_tumor_correct_T1: 19/20
+    no_tumor_correct_другой режим: 36/36
+    classifier_alone:
+      recall: 0.9872
+      no_tumor_correct: 50
+    flag_models_disagree:
+      no_tumor: 5
+      tumor: 14
+  run1_seg_neg_s44_*:
+    n_tumor: 469
+    n_no_tumor: 56
+    recall: 0.9936
+    tumors_found: 466
+    specificity: 0.9821
+    no_tumor_correct: 55
+    found_figshare: 390/391
+    found_figshare_crop: 18/18
+    found_other: 58/60
+    no_tumor_correct_T1: 20/20
+    no_tumor_correct_другой режим: 35/36
+    classifier_alone:
+      recall: 0.9872
+      no_tumor_correct: 50
+    flag_models_disagree:
+      no_tumor: 7
+      tumor: 15

@@ -1,0 +1,7 @@
+# Запуск 1, сегментатор основной схемы (шаг 5.2): только снимки с маской из общего пула.
+_base_: base.yaml
+run: run1_seg
+kind: segmenter
+train:
+  epochs: 40
+  epochs_frozen: 5

@@ -1,0 +1,34 @@
+# Полное окружение проекта (подготовка данных, обучение, оценка): Python 3.10, без GPU (torch — CPU-сборка).
+# Только для запуска прототипа достаточно requirements-app.txt (его ставят скрипты start_*).
+# Установка: python -m pip install -r requirements.txt
+# В Kaggle torch/torchvision уже стоят с CUDA — там ставятся только пакеты из requirements-kaggle.txt.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Модели
+torch==2.14.1+cpu
+torchvision==0.29.1+cpu
+timm==1.0.30
+segmentation-models-pytorch==0.5.0
+grad-cam==1.5.7
+
+# Данные и изображения
+numpy==2.2.6
+openpyxl==3.1.5
+pandas==2.3.3
+scikit-learn==1.7.2
+albumentations==2.0.8
+# headless: albumentations зависит именно от него; opencv-python рядом конфликтует по модулю cv2
+opencv-python-headless==5.0.0.93
+pillow==12.3.0
+ImageHash==4.3.2
+h5py==3.16.0
+
+# Отчеты и графики
+matplotlib==3.10.9
+
+# Конфиги и утилиты
+PyYAML==6.0.3
+tqdm==4.70.1
+
+# Прототип
+streamlit==1.65.0

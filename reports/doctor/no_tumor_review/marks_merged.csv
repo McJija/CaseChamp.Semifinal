@@ -1,0 +1,467 @@
+﻿num,page,path,split,patient_group_id,mode_A,finding_A,seen_A,mode_B,finding_B,seen_B,mode_C,finding_C,seen_C,n_reviewers,mode_all,finding_all,mode_missing,finding_missing,ct_any,t1c_any,t1c_all,t1_family_all,unsure_mode,tumor_any,other_any,norm_all,notes,note_kinds,mode_agree,finding_agree
+1,1,Обучающая выборка/Опухоли нет/Tr-no_0300.jpg,train,p00201,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+2,1,Обучающая выборка/Опухоли нет/1679.jpg,val,p00202,FLAIR,Опухоль|Другое,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: артефакт,артефакт,да,частично
+3,1,Обучающая выборка/Опухоли нет/Tr-no_0603.jpg,val,p00202,T2,Опухоль|Другое,True,FLAIR,Другое,True,,,False,2,T2|FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: артефакт,артефакт,нет,частично
+4,1,Обучающая выборка/Опухоли нет/1675.jpg,train,p00203,T1+К,Норма,True,T2,Норма,True,,,False,2,T1+К|T2,Норма,False,False,False,True,False,False,False,False,False,True,A: сомнительно,сомнение,нет,да
+5,1,Тестова выборка/Опухоли нет/1475.jpg,train,p00203,T2,Норма,True,FLAIR,Норма,True,,,False,2,T2|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,A: ничего не видно,качество,нет,да
+6,1,Обучающая выборка/Опухоли нет/1856.jpg,train,p00204,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,да,нет
+7,1,Обучающая выборка/Опухоли нет/1627.jpg,train,p00205,T2,Опухоль|Другое,True,T2,Норма,True,,,False,2,T2,Норма|Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,да,нет
+8,1,Обучающая выборка/Опухоли нет/1784.jpg,train,p00205,T2,Опухоль|Другое,True,T2,Норма,True,,,False,2,T2,Норма|Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,да,нет
+9,1,Обучающая выборка/Опухоли нет/Tr-no_0671.jpg,train,p00205,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+10,1,Тестова выборка/Опухоли нет/1493.jpg,train,p00205,T2,,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,False,,,да,нет
+11,1,Тестова выборка/Опухоли нет/1530.jpg,train,p00205,T2,Опухоль|Другое,True,T2,Норма,True,,,False,2,T2,Норма|Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,да,нет
+12,1,Обучающая выборка/Опухоли нет/1611.jpg,train,p00206,T2,Норма,True,FLAIR,Норма,True,,,False,2,T2|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+13,1,Обучающая выборка/Опухоли нет/1656.jpg,train,p00206,T2,Норма,True,FLAIR,Норма,True,,,False,2,T2|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+14,1,Обучающая выборка/Опухоли нет/1665.jpg,train,p00206,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+15,1,Обучающая выборка/Опухоли нет/Tr-no_0581.jpg,train,p00206,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+16,1,Тестова выборка/Опухоли нет/1206.jpg,train,p00206,T2,Норма,True,FLAIR,Норма,True,,,False,2,T2|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+17,1,Обучающая выборка/Опухоли нет/1621.jpg,train,p00207,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+18,1,Тестова выборка/Опухоли нет/1514.jpg,train,p00207,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+19,1,Обучающая выборка/Опухоли нет/1721.jpg,test,p00208,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+20,1,Обучающая выборка/Опухоли нет/1 no.jpeg,val,p00209,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+21,1,Обучающая выборка/Опухоли нет/1710.jpg,val,p00209,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+22,1,Обучающая выборка/Опухоли нет/Tr-no_0620.jpg,val,p00209,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+23,1,Обучающая выборка/Опухоли нет/1618.jpg,train,p00210,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+24,1,Обучающая выборка/Опухоли нет/1717.jpg,train,p00210,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+25,1,Обучающая выборка/Опухоли нет/1785.jpg,train,p00210,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+26,1,Обучающая выборка/Опухоли нет/1922.jpg,train,p00210,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+27,1,Обучающая выборка/Опухоли нет/Tr-no_0690.jpg,train,p00210,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+28,1,Тестова выборка/Опухоли нет/1344.jpg,train,p00210,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+29,1,Тестова выборка/Опухоли нет/1481.jpg,train,p00210,T2,,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,False,,,да,нет
+30,1,Обучающая выборка/Опухоли нет/1798.jpg,train,p00211,T2,Другое,True,T2,Норма,True,,,False,2,T2,Норма|Другое,False,False,False,False,False,False,False,False,True,False,,,да,нет
+31,1,Обучающая выборка/Опухоли нет/1718.jpg,test,p00212,T2,Норма,True,FLAIR,Норма,True,,,False,2,T2|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+32,1,Обучающая выборка/Опухоли нет/1799.jpg,test,p00212,T2,Норма,True,FLAIR,Норма,True,,,False,2,T2|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+33,1,Обучающая выборка/Опухоли нет/1594.jpg,val,p00213,FLAIR,Другое,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Другое,False,False,False,False,False,False,False,False,True,False,,,да,нет
+34,1,Обучающая выборка/Опухоли нет/1639.jpg,val,p00213,FLAIR,Другое,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Другое,False,False,False,False,False,False,False,False,True,False,,,да,нет
+35,1,Обучающая выборка/Опухоли нет/Tr-no_0522.jpg,val,p00213,FLAIR,Другое,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Другое,False,False,False,False,False,False,False,False,True,False,,,да,нет
+36,1,Тестова выборка/Опухоли нет/1160.jpg,val,p00213,FLAIR,Другое,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Другое,False,False,False,False,False,False,False,False,True,False,,,да,нет
+37,1,Тестова выборка/Опухоли нет/1214.jpg,val,p00213,FLAIR,Другое,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Другое,False,False,False,False,False,False,False,False,True,False,,,да,нет
+38,1,Тестова выборка/Опухоли нет/1120.jpg,train,p00214,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,A: знак вопроса у обведенной области,сомнение,да,да
+39,1,Обучающая выборка/Опухоли нет/Tr-no_0156.jpg,train,p00215,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+40,1,Обучающая выборка/Опухоли нет/Tr-no_0303.jpg,train,p00216,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+41,2,Обучающая выборка/Опухоли нет/Tr-no_0471.jpg,train,p00216,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+42,2,Обучающая выборка/Опухоли нет/1671.jpg,train,p00217,T2,Опухоль,True,T2,Опухоль,True,,,False,2,T2,Опухоль,False,False,False,False,False,False,False,True,False,False,,,да,да
+43,2,Обучающая выборка/Опухоли нет/N22.JPG,train,p00217,T2,Опухоль,True,T2,Опухоль,True,,,False,2,T2,Опухоль,False,False,False,False,False,False,False,True,False,False,,,да,да
+44,2,Обучающая выборка/Опухоли нет/1845.jpg,train,p00218,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+45,2,Обучающая выборка/Опухоли нет/Tr-no_0284.jpg,train,p00218,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+46,2,Обучающая выборка/Опухоли нет/1791.jpg,train,p00219,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+47,2,Обучающая выборка/Опухоли нет/1728.jpg,test,p00220,?,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR|?,Норма,False,False,False,False,False,False,True,False,False,True,"A: не видно ни белое, ни темное вещество",качество,нет,да
+48,2,Обучающая выборка/Опухоли нет/Tr-no_0236.jpg,train,p00221,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+49,2,Обучающая выборка/Опухоли нет/1676.jpg,train,p00222,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+50,2,Тестова выборка/Опухоли нет/1242.jpg,train,p00222,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+51,2,Обучающая выборка/Опухоли нет/11 no.jpg,train,p00223,T1+К,Опухоль|Другое,True,FLAIR,Норма,True,,,False,2,T1+К|FLAIR,Норма|Опухоль|Другое,False,False,False,True,False,False,False,True,True,False,,,нет,нет
+52,2,Обучающая выборка/Опухоли нет/1839.jpg,train,p00223,T1,Опухоль|Другое,True,FLAIR,Норма,True,,,False,2,T1|FLAIR,Норма|Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,нет,нет
+53,2,Обучающая выборка/Опухоли нет/Tr-no_0475.jpg,train,p00223,T1,Опухоль|Другое,True,FLAIR,Норма,True,,,False,2,T1|FLAIR,Норма|Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,нет,нет
+54,2,Тестова выборка/Опухоли нет/1198.jpg,train,p00223,T1,Опухоль|Другое,True,FLAIR,Норма,True,,,False,2,T1|FLAIR,Норма|Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,нет,нет
+55,2,Обучающая выборка/Опухоли нет/1592.jpg,train,p00224,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: лейкоареоз,болезнь,да,нет
+56,2,Тестова выборка/Опухоли нет/1133.jpg,test,p00225,T1+К,Норма,True,FLAIR,Норма,True,,,False,2,T1+К|FLAIR,Норма,False,False,False,True,False,False,False,False,False,True,,,нет,да
+57,2,Обучающая выборка/Опухоли нет/Tr-no_0447.jpg,test,p00226,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+58,2,Обучающая выборка/Опухоли нет/1617.jpg,train,p00227,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: лейкоареоз,болезнь,да,нет
+59,2,Обучающая выборка/Опухоли нет/1788.jpg,train,p00227,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: лейкоареоз,болезнь,да,нет
+60,2,Обучающая выборка/Опухоли нет/18 no.jpg,train,p00227,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: лейкоареоз,болезнь,да,нет
+61,2,Обучающая выборка/Опухоли нет/Tr-no_0563.jpg,train,p00227,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: лейкоареоз,болезнь,да,нет
+62,2,Обучающая выборка/Опухоли нет/1659.jpg,train,p00228,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+63,2,Обучающая выборка/Опухоли нет/Tr-no_0250.jpg,train,p00229,FLAIR,Опухоль|Другое,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,да,нет
+64,2,Обучающая выборка/Опухоли нет/1636.jpg,val,p00230,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: лейкоареоз,болезнь,да,нет
+65,2,Обучающая выборка/Опухоли нет/1734.jpg,val,p00230,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: лейкоареоз,болезнь,да,нет
+66,2,Тестова выборка/Опухоли нет/1373.jpg,val,p00230,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: лейкоареоз,болезнь,да,нет
+67,2,Обучающая выборка/Опухоли нет/Tr-no_0627.jpg,train,p00231,FLAIR,Норма,True,T2,Норма,True,,,False,2,T2|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+68,2,Обучающая выборка/Опухоли нет/Tr-no_0255.jpg,val,p00232,T1,Норма,True,FLAIR,Норма,True,,,False,2,T1|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+69,2,Обучающая выборка/Опухоли нет/Tr-no_0118.jpg,val,p00233,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+70,2,Обучающая выборка/Опухоли нет/Tr-no_0109.jpg,train,p00234,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+71,2,Обучающая выборка/Опухоли нет/Tr-no_0482.jpg,train,p00234,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+72,2,Обучающая выборка/Опухоли нет/Tr-no_0669.jpg,train,p00234,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+73,2,Тестова выборка/Опухоли нет/1300.jpg,train,p00234,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+74,2,Обучающая выборка/Опухоли нет/Tr-no_0386.jpg,train,p00235,T1,Норма,True,,,True,,,False,2,T1,Норма,False,False,False,False,False,False,False,False,False,False,,,нет,нет
+75,2,Обучающая выборка/Опухоли нет/1743.jpg,train,p00236,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+76,2,Обучающая выборка/Опухоли нет/10 no.jpg,train,p00237,T1,Норма,True,FLAIR,Норма,True,,,False,2,T1|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+77,2,Обучающая выборка/Опухоли нет/Tr-no_0542.jpg,train,p00237,T1,Норма,True,FLAIR,Норма,True,,,False,2,T1|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+78,2,Обучающая выборка/Опухоли нет/Tr-no_0543.jpg,train,p00237,T1,Норма,True,FLAIR,Норма,True,,,False,2,T1|FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,нет,да
+79,2,Обучающая выборка/Опухоли нет/N17.jpg,val,p00238,T1,Опухоль,True,T1+К,Другое,True,,,False,2,T1+К|T1,Опухоль|Другое,False,False,False,True,False,True,False,True,True,False,B: метастазы или артефакт кровообращения,артефакт или болезнь,нет,нет
+80,2,Обучающая выборка/Опухоли нет/Tr-no_0465.jpg,val,p00238,T1,Опухоль,True,T1+К,Другое,True,,,False,2,T1+К|T1,Опухоль|Другое,False,False,False,True,False,True,False,True,True,False,B: метастазы или артефакт кровообращения,артефакт или болезнь,нет,нет
+81,3,Обучающая выборка/Опухоли нет/Tr-no_0613.jpg,val,p00238,T1,Опухоль,True,T1+К,Другое,True,,,False,2,T1+К|T1,Опухоль|Другое,False,False,False,True,False,True,False,True,True,False,,,нет,нет
+82,3,Обучающая выборка/Опухоли нет/1633.jpg,train,p00239,FLAIR,Опухоль,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Опухоль,False,False,False,False,False,False,False,True,False,False,,,да,нет
+83,3,Обучающая выборка/Опухоли нет/Tr-no_0589.jpg,train,p00239,FLAIR,Опухоль,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Опухоль,False,False,False,False,False,False,False,True,False,False,,,да,нет
+84,3,Тестова выборка/Опухоли нет/1231.jpg,train,p00239,FLAIR,Опухоль,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Опухоль,False,False,False,False,False,False,False,True,False,False,,,да,нет
+85,3,Обучающая выборка/Опухоли нет/Tr-no_0318.jpg,train,p00240,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+86,3,Обучающая выборка/Опухоли нет/Tr-no_0504.jpg,train,p00241,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+87,3,Тестова выборка/Опухоли нет/1243.jpg,train,p00241,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+88,3,Обучающая выборка/Опухоли нет/Tr-no_0104.jpg,train,p00242,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+89,3,Обучающая выборка/Опухоли нет/1719.jpg,train,p00243,КТ,Опухоль,True,КТ,Другое,True,,,False,2,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,B: старый лакунарный инфаркт,болезнь,да,нет
+90,3,Обучающая выборка/Опухоли нет/N_381.jpg,train,p00243,КТ,Опухоль,True,КТ,Другое,True,,,False,2,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,B: старый лакунарный инфаркт,болезнь,да,нет
+91,3,Обучающая выборка/Опухоли нет/N_382.jpg,train,p00243,КТ,Опухоль,True,КТ,Другое,True,,,False,2,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,B: старый лакунарный инфаркт,болезнь,да,нет
+92,3,Обучающая выборка/Опухоли нет/N_400.jpg,train,p00243,КТ,Опухоль,True,КТ,Другое,True,,,False,2,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,B: старый лакунарный инфаркт,болезнь,да,нет
+93,3,Обучающая выборка/Опухоли нет/Tr-no_0055.jpg,train,p00243,КТ,Опухоль,True,КТ,Другое,True,,,False,2,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,B: старый лакунарный инфаркт,болезнь,да,нет
+94,3,Обучающая выборка/Опухоли нет/Tr-no_0080.jpg,train,p00243,КТ,Опухоль,True,КТ,Другое,True,,,False,2,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,B: старый лакунарный инфаркт,болезнь,да,нет
+95,3,Обучающая выборка/Опухоли нет/Tr-no_0326.jpg,train,p00243,КТ,Опухоль,True,КТ,Другое,True,,,False,2,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,B: старый лакунарный инфаркт,болезнь,да,нет
+96,3,Обучающая выборка/Опухоли нет/Tr-no_0215.jpg,train,p00244,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+97,3,Обучающая выборка/Опухоли нет/1612.jpg,train,p00245,FLAIR,Опухоль,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Опухоль,False,False,False,False,False,False,False,True,False,False,A: вода или отеки более светлые,находка,да,нет
+98,3,Обучающая выборка/Опухоли нет/Te-no_0155.jpg,train,p00245,FLAIR,Опухоль,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Опухоль,False,False,False,False,False,False,False,True,False,False,A: вода или отеки более светлые,находка,да,нет
+99,3,Обучающая выборка/Опухоли нет/Tr-no_0228.jpg,train,p00245,FLAIR,Опухоль,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Опухоль,False,False,False,False,False,False,False,True,False,False,A: вода или отеки более светлые,находка,да,нет
+100,3,Тестова выборка/Опухоли нет/1168.jpg,train,p00246,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+101,3,Обучающая выборка/Опухоли нет/1824.jpg,test,p00247,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+102,3,Обучающая выборка/Опухоли нет/Te-no_0224.jpg,test,p00247,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+103,3,Обучающая выборка/Опухоли нет/1697.jpg,train,p00248,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+104,3,Обучающая выборка/Опухоли нет/Tr-no_0234.jpg,val,p00249,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+105,3,Обучающая выборка/Опухоли нет/Tr-no_0124.jpg,train,p00250,FLAIR,Опухоль,True,FLAIR,Другое,True,,,False,2,FLAIR,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,B: лейкоареоз,болезнь,да,нет
+106,3,Обучающая выборка/Опухоли нет/Tr-no_0154.jpg,val,p00251,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+107,3,Обучающая выборка/Опухоли нет/1664.jpg,train,p00252,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+108,3,Обучающая выборка/Опухоли нет/Te-no_0239.jpg,train,p00252,FLAIR|?,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR|?,Норма,False,False,False,False,False,False,True,False,False,True,,,частично,да
+109,3,Обучающая выборка/Опухоли нет/Tr-no_0025.jpg,train,p00252,FLAIR|?,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR|?,Норма,False,False,False,False,False,False,True,False,False,True,,,частично,да
+110,3,Обучающая выборка/Опухоли нет/Tr-no_0591.jpg,train,p00252,FLAIR|?,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR|?,Норма,False,False,False,False,False,False,True,False,False,True,,,частично,да
+111,3,Тестова выборка/Опухоли нет/1178.jpg,train,p00252,FLAIR|?,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR|?,Норма,False,False,False,False,False,False,True,False,False,True,,,частично,да
+112,3,Тестова выборка/Опухоли нет/1270.jpg,train,p00252,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+113,3,Тестова выборка/Опухоли нет/1456.jpg,train,p00252,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+114,3,Обучающая выборка/Опухоли нет/Tr-no_0216.jpg,train,p00253,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+115,3,Тестова выборка/Опухоли нет/1181.jpg,train,p00254,T2,Норма,True,T2,Другое,True,,,False,2,T2,Норма|Другое,False,False,False,False,False,False,False,False,True,False,,,да,нет
+116,3,Обучающая выборка/Опухоли нет/1680.jpg,train,p00255,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+117,3,Обучающая выборка/Опухоли нет/1778.jpg,val,p00256,?,Норма,True,?,Норма,True,,,False,2,?,Норма,False,False,False,False,False,False,True,False,False,True,"A: ничего не видно, ужасный снимок; B: режим T2*/SWI",качество|режим,да,да
+118,3,Обучающая выборка/Опухоли нет/Tr-no_0220.jpg,val,p00257,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+119,3,Обучающая выборка/Опухоли нет/1667.jpg,train,p00258,T2,Опухоль|Другое,True,T2,Норма,True,,,False,2,T2,Норма|Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,да,нет
+120,3,Обучающая выборка/Опухоли нет/1925.jpg,train,p00258,T2,Опухоль|Другое,True,T2,Норма,True,,,False,2,T2,Норма|Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,,,да,нет
+121,4,Обучающая выборка/Опухоли нет/1674.jpg,train,p00259,T1+К,Другое,True,T1+К,Норма,True,,,False,2,T1+К,Норма|Другое,False,False,False,True,True,True,False,False,True,False,A: много мелких артефактов,артефакт,да,нет
+122,4,Обучающая выборка/Опухоли нет/1851.jpg,train,p00259,T1+К,Другое,True,T1+К,Норма,True,,,False,2,T1+К,Норма|Другое,False,False,False,True,True,True,False,False,True,False,,,да,нет
+123,4,Обучающая выборка/Опухоли нет/N21.jpg,train,p00260,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+124,4,Обучающая выборка/Опухоли нет/1619.jpg,test,p00261,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+125,4,Обучающая выборка/Опухоли нет/Tr-no_0409.jpg,test,p00261,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+126,4,Обучающая выборка/Опухоли нет/1766.jpg,train,p00262,КТ,Другое,True,КТ,Другое,True,,,False,2,КТ,Другое,False,False,True,False,False,False,False,False,True,False,A: кальцинат сосудистого сплетения; B: ишемический инфаркт; кальцификация,болезнь|находка,да,да
+127,4,Обучающая выборка/Опухоли нет/Tr-no_0100.jpg,train,p00263,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,A: по периметру много мелких артефактов,артефакт,да,да
+128,4,Обучающая выборка/Опухоли нет/Tr-no_0363.jpg,train,p00264,T1,Другое,True,T1,Другое,True,,,False,2,T1,Другое,False,False,False,False,False,True,False,False,True,False,B: обширный инфаркт либо опухоль,болезнь,да,да
+129,4,Обучающая выборка/Опухоли нет/Te-no_0251.jpg,train,p00265,FLAIR,Другое,True,FLAIR,Другое,True,,,False,2,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: рассеянный склероз?; B: лейкоареоз,болезнь,да,да
+130,4,Тестова выборка/Опухоли нет/1476.jpg,train,p00265,T1|?,Опухоль|Другое,True,FLAIR,Другое,True,,,False,2,T1|FLAIR|?,Опухоль|Другое,False,False,False,False,False,False,True,True,True,False,B: лейкоареоз,болезнь,нет,частично
+131,4,Обучающая выборка/Опухоли нет/1590.jpg,train,p00266,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+132,4,Обучающая выборка/Опухоли нет/1650.jpg,train,p00266,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+133,4,Обучающая выборка/Опухоли нет/1736.jpg,train,p00266,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+134,4,Обучающая выборка/Опухоли нет/Tr-no_0151.jpg,train,p00266,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+135,4,Обучающая выборка/Опухоли нет/Tr-no_0476.jpg,train,p00266,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+136,4,Тестова выборка/Опухоли нет/1465.jpg,train,p00266,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+137,4,Обучающая выборка/Опухоли нет/Tr-no_0321.jpg,test,p00267,T1,Норма,True,T1,Норма,True,,,False,2,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,да,да
+138,4,Обучающая выборка/Опухоли нет/1610.jpg,val,p00268,FLAIR,Другое,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Другое,False,False,False,False,False,False,False,False,True,False,A: рассеянный склероз или артефакт,артефакт или болезнь,да,нет
+139,4,Обучающая выборка/Опухоли нет/1640.jpg,val,p00268,FLAIR,Другое,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Другое,False,False,False,False,False,False,False,False,True,False,A: рассеянный склероз или что-то другое,болезнь,да,нет
+140,4,Обучающая выборка/Опухоли нет/Tr-no_0448.jpg,val,p00268,FLAIR,Другое,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма|Другое,False,False,False,False,False,False,False,False,True,False,A: очаги белого вещества; B: лейкоареоз,болезнь|находка,да,нет
+141,4,Обучающая выборка/Опухоли нет/1684.jpg,train,p00269,FLAIR,Другое,True,FLAIR,Другое,True,,,False,2,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги белого вещества; B: лейкоареоз,болезнь|находка,да,да
+142,4,Обучающая выборка/Опухоли нет/1877.jpg,train,p00269,FLAIR,Другое,True,FLAIR,Другое,True,,,False,2,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,B: лейкоареоз,болезнь,да,да
+143,4,Обучающая выборка/Опухоли нет/Te-no_0317.jpg,train,p00269,FLAIR,Другое,True,FLAIR,Другое,True,,,False,2,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,B: лейкоареоз,болезнь,да,да
+144,4,Обучающая выборка/Опухоли нет/Tr-no_0630.jpg,train,p00269,FLAIR,Другое,True,FLAIR,Другое,True,,,False,2,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,B: лейкоареоз,болезнь,да,да
+145,4,Тестова выборка/Опухоли нет/1305.jpg,train,p00269,FLAIR,Другое,True,FLAIR,Другое,True,,,False,2,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,B: лейкоареоз,болезнь,да,да
+146,4,Обучающая выборка/Опухоли нет/N6.jpg,train,p00270,T2,Другое,True,T2,Норма,True,,,False,2,T2,Норма|Другое,False,False,False,False,False,False,False,False,True,False,A: ликворное пространство / кистозная структура,находка,да,нет
+147,4,Обучающая выборка/Опухоли нет/Tr-no_0508.jpg,train,p00270,T2,Другое,True,T2,Норма,True,,,False,2,T2,Норма|Другое,False,False,False,False,False,False,False,False,True,False,A: ликворное пространство / кистозная структура,находка,да,нет
+148,4,Обучающая выборка/Опухоли нет/15 no.jpg,train,p00271,T2,Опухоль,True,T2,Другое,True,,,False,2,T2,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,"A: может быть травма, опухоль, киста, очаг",болезнь,да,нет
+149,4,Обучающая выборка/Опухоли нет/Te-no_0150.jpg,train,p00272,T1,Опухоль,True,T1+К,Опухоль,True,,,False,2,T1+К|T1,Опухоль,False,False,False,True,False,True,False,True,False,False,"A: может быть травма, опухоль, киста, очаг; B: опухоль, т. к. обширный перифокальный отек",болезнь,нет,да
+150,4,Тестова выборка/Опухоли нет/1216.jpg,train,p00272,T1,Опухоль,True,T1+К,Опухоль,True,,,False,2,T1+К|T1,Опухоль,False,False,False,True,False,True,False,True,False,False,"B: опухоль, т. к. обширный перифокальный отек",болезнь,нет,да
+151,4,Обучающая выборка/Опухоли нет/1836.jpg,val,p00273,T2,Опухоль,True,T2,Другое,True,,,False,2,T2,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,"A: опухоли, воспаление, постишемия",болезнь,да,нет
+152,4,Обучающая выборка/Опухоли нет/Tr-no_0455.jpg,val,p00273,T2,Опухоль,True,T2,Другое,True,,,False,2,T2,Опухоль|Другое,False,False,False,False,False,False,False,True,True,False,"A: опухоли, воспаление, постишемия",болезнь,да,нет
+153,4,Обучающая выборка/Опухоли нет/1811.jpg,test,p00274,FLAIR|?,Другое,True,?,Другое,True,,,False,2,FLAIR|?,Другое,False,False,False,False,False,False,True,False,True,False,A: режим DWI; гиперинтенсивные очаги белого вещества; B: режим DWI; эмболия,режим и находка,частично,да
+154,4,Обучающая выборка/Опухоли нет/1603.jpg,train,p00275,FLAIR|?,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR|?,Норма,False,False,False,False,False,False,True,False,False,True,,,частично,да
+155,4,Обучающая выборка/Опухоли нет/1608.jpg,train,p00275,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+156,4,Обучающая выборка/Опухоли нет/Tr-no_0536.jpg,train,p00275,FLAIR|?,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR|?,Норма,False,False,False,False,False,False,True,False,False,True,,,частично,да
+157,4,Обучающая выборка/Опухоли нет/Tr-no_0694.jpg,train,p00275,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+158,4,Тестова выборка/Опухоли нет/1223.jpg,train,p00276,T2,Норма,True,?,Норма,True,,,False,2,T2|?,Норма,False,False,False,False,False,False,True,False,False,True,,,нет,да
+159,4,Обучающая выборка/Опухоли нет/Tr-no_0274.jpg,val,p00277,T2,Норма,True,T2,Норма,True,,,False,2,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+160,4,Обучающая выборка/Опухоли нет/Te-no_0260.jpg,test,p00278,FLAIR,Норма,True,FLAIR,Норма,True,,,False,2,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,да,да
+161,5,Обучающая выборка/Опухоли нет/Tr-no_0060.jpg,train,p00279,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: скопление жидкости,находка,,
+162,5,Обучающая выборка/Опухоли нет/1707.jpg,train,p00280,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+163,5,Обучающая выборка/Опухоли нет/1769.jpg,train,p00280,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+164,5,Обучающая выборка/Опухоли нет/Te-no_0163.jpg,train,p00280,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+165,5,Обучающая выборка/Опухоли нет/Tr-no_0458.jpg,train,p00280,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+166,5,Тестова выборка/Опухоли нет/1234.jpg,train,p00280,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+167,5,Обучающая выборка/Опухоли нет/Tr-no_0273.jpg,train,p00281,T1+К,Норма,True,,,False,,,False,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,
+168,5,Обучающая выборка/Опухоли нет/Tr-no_0305.jpg,val,p00282,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+169,5,Обучающая выборка/Опухоли нет/1600.jpg,train,p00283,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+170,5,Обучающая выборка/Опухоли нет/Tr-no_0097.jpg,val,p00284,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: похоже на склероз,болезнь,,
+171,5,Обучающая выборка/Опухоли нет/1597.jpg,train,p00285,T2,Другое,True,,,False,,,False,1,T2,Другое,False,False,False,False,False,False,False,False,True,False,,,,
+172,5,Обучающая выборка/Опухоли нет/1748.jpg,train,p00286,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: болезнь Альцгеймера,болезнь,,
+173,5,Обучающая выборка/Опухоли нет/1741.jpg,train,p00287,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+174,5,Обучающая выборка/Опухоли нет/1642.jpg,val,p00288,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+175,5,Обучающая выборка/Опухоли нет/Tr-no_0472.jpg,val,p00288,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+176,5,Тестова выборка/Опухоли нет/1253.jpg,val,p00288,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+177,5,Обучающая выборка/Опухоли нет/1794.jpg,train,p00289,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+178,5,Обучающая выборка/Опухоли нет/Tr-no_0083.jpg,test,p00290,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+179,5,Обучающая выборка/Опухоли нет/Tr-no_0296.jpg,test,p00290,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+180,5,Обучающая выборка/Опухоли нет/1689.jpg,test,p00291,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+181,5,Обучающая выборка/Опухоли нет/Tr-no_0402.jpg,test,p00291,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+182,5,Обучающая выборка/Опухоли нет/Tr-no_0171.jpg,train,p00292,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,"A: очаги в белом веществе: может быть склероз, мигрень",болезнь,,
+183,5,Обучающая выборка/Опухоли нет/Tr-no_0469.jpg,train,p00293,T2,Другое,True,,,False,,,False,1,T2,Другое,False,False,False,False,False,False,False,False,True,False,A: артефакты,артефакт,,
+184,5,Тестова выборка/Опухоли нет/1258.jpg,train,p00293,T2,Другое,True,,,False,,,False,1,T2,Другое,False,False,False,False,False,False,False,False,True,False,A: артефакты,артефакт,,
+185,5,Обучающая выборка/Опухоли нет/1625.jpg,train,p00294,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,"A: очаги в белом веществе: может быть склероз, мигрень",болезнь,,
+186,5,Обучающая выборка/Опухоли нет/1631.jpg,train,p00294,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,"A: очаги в белом веществе: может быть склероз, мигрень",болезнь,,
+187,5,Обучающая выборка/Опухоли нет/1651.jpg,train,p00294,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,"A: очаги в белом веществе: может быть склероз, мигрень",болезнь,,
+188,5,Обучающая выборка/Опухоли нет/Tr-no_0462.jpg,train,p00294,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,"A: очаги в белом веществе: может быть склероз, мигрень",болезнь,,
+189,5,Тестова выборка/Опухоли нет/1259.jpg,train,p00294,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,"A: очаги в белом веществе: может быть склероз, мигрень",болезнь,,
+190,5,Тестова выборка/Опухоли нет/1539.jpg,train,p00294,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,"A: очаги в белом веществе: может быть склероз, мигрень",болезнь,,
+191,5,Обучающая выборка/Опухоли нет/Tr-no_0116.jpg,train,p00295,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+192,5,Обучающая выборка/Опухоли нет/Tr-no_0119.jpg,val,p00296,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+193,5,Обучающая выборка/Опухоли нет/Tr-no_0378.jpg,train,p00297,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: гидроцефалия,болезнь,,
+194,5,Обучающая выборка/Опухоли нет/1606.jpg,train,p00298,КТ,Другое,True,,,False,,,False,1,КТ,Другое,False,False,True,False,False,False,False,False,True,False,A: гидроцефалия?,болезнь,,
+195,5,Обучающая выборка/Опухоли нет/N19.JPG,test,p00299,T1,Опухоль,True,,,False,,,False,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+196,5,Обучающая выборка/Опухоли нет/1716.jpg,val,p00300,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: PRES??,болезнь,,
+197,5,Обучающая выборка/Опухоли нет/Tr-no_0172.jpg,train,p00301,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+198,5,Обучающая выборка/Опухоли нет/Tr-no_0177.jpg,test,p00302,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+199,5,Обучающая выборка/Опухоли нет/1739.jpg,train,p00303,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+200,5,Обучающая выборка/Опухоли нет/Tr-no_0576.jpg,train,p00303,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+201,6,Обучающая выборка/Опухоли нет/14 no.jpg,train,p00304,T1+К,Норма,True,,,False,,,False,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,
+202,6,Обучающая выборка/Опухоли нет/1672.jpg,train,p00305,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+203,6,Обучающая выборка/Опухоли нет/No12.jpg,train,p00306,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+204,6,Обучающая выборка/Опухоли нет/Tr-no_0192.jpg,train,p00307,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+205,6,Обучающая выборка/Опухоли нет/no 99.jpg,test,p00308,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+206,6,Обучающая выборка/Опухоли нет/Tr-no_0624.jpg,train,p00309,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: лейкоареоз,болезнь,,
+207,6,Тестова выборка/Опухоли нет/1294.jpg,train,p00309,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: лейкоареоз,болезнь,,
+208,6,Обучающая выборка/Опухоли нет/1702.jpg,test,p00310,КТ,Опухоль|Другое,True,,,False,,,False,1,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,"A: кровоизлияние, кальцинаты, опухоль",болезнь,,
+209,6,Обучающая выборка/Опухоли нет/Tr-no_0549.jpg,train,p00311,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,,,,
+210,6,Тестова выборка/Опухоли нет/1302.jpg,train,p00311,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,,,,
+211,6,Тестова выборка/Опухоли нет/1304.jpg,train,p00312,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,,,,
+212,6,Обучающая выборка/Опухоли нет/N_389.jpg,val,p00313,КТ,,True,,,False,,,False,1,КТ,,False,True,True,False,False,False,False,False,False,False,,,,
+213,6,Обучающая выборка/Опухоли нет/1657.jpg,train,p00314,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: белые точки — артефакты,артефакт,,
+214,6,Тестова выборка/Опухоли нет/1399.jpg,train,p00314,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: белые точки — артефакты,артефакт,,
+215,6,Тестова выборка/Опухоли нет/1313.jpg,train,p00315,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: артефакты?,артефакт,,
+216,6,Обучающая выборка/Опухоли нет/1706.jpg,train,p00316,T1,Опухоль,True,,,False,,,False,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+217,6,Обучающая выборка/Опухоли нет/1814.jpg,train,p00317,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+218,6,Обучающая выборка/Опухоли нет/1601.jpg,val,p00318,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+219,6,Обучающая выборка/Опухоли нет/N_405.jpg,val,p00318,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+220,6,Тестова выборка/Опухоли нет/1321.jpg,train,p00319,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+221,6,Обучающая выборка/Опухоли нет/Te-no_0152.jpg,train,p00320,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+222,6,Обучающая выборка/Опухоли нет/N_388.jpg,train,p00321,КТ,Опухоль|Другое,True,,,False,,,False,1,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,A: гидроцефалия,болезнь,,
+223,6,Обучающая выборка/Опухоли нет/1802.jpg,train,p00322,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+224,6,Обучающая выборка/Опухоли нет/1591.jpg,train,p00323,?,Другое,True,,,False,,,False,1,?,Другое,False,False,False,False,False,False,True,False,True,False,A: режим SWI/T2*; кровоизлияние,режим и находка,,
+225,6,Обучающая выборка/Опухоли нет/Tr-no_0340.jpg,train,p00323,?,Другое,True,,,False,,,False,1,?,Другое,False,False,False,False,False,False,True,False,True,False,"A: режим SWI/T2*; микроизлияние, кальцинаты?",режим и находка,,
+226,6,Обучающая выборка/Опухоли нет/Tr-no_0186.jpg,test,p00324,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+227,6,Обучающая выборка/Опухоли нет/Tr-no_0087.jpg,test,p00325,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+228,6,Обучающая выборка/Опухоли нет/Te-no_0085.jpg,val,p00326,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+229,6,Обучающая выборка/Опухоли нет/Tr-no_0120.jpg,train,p00327,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+230,6,Обучающая выборка/Опухоли нет/Tr-no_0259.jpg,train,p00328,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+231,6,Обучающая выборка/Опухоли нет/Tr-no_0264.jpg,test,p00329,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+232,6,Обучающая выборка/Опухоли нет/Tr-no_0509.jpg,train,p00330,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+233,6,Тестова выборка/Опухоли нет/1342.jpg,train,p00330,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+234,6,Обучающая выборка/Опухоли нет/1847.jpg,train,p00331,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+235,6,Обучающая выборка/Опухоли нет/Tr-no_0203.jpg,train,p00332,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+236,6,Обучающая выборка/Опухоли нет/N_375.jpg,test,p00333,?,Норма,True,,,False,,,False,1,?,Норма,False,False,False,False,False,False,True,False,False,True,A: режим TOF-MRA; белые — артерии,режим и находка,,
+237,6,Обучающая выборка/Опухоли нет/1634.jpg,train,p00334,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+238,6,Обучающая выборка/Опухоли нет/Tr-no_0422.jpg,train,p00334,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+239,6,Обучающая выборка/Опухоли нет/Tr-no_0617.jpg,train,p00334,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+240,6,Обучающая выборка/Опухоли нет/Tr-no_0245.jpg,train,p00335,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+241,7,Тестова выборка/Опухоли нет/1359.jpg,val,p00336,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+242,7,Обучающая выборка/Опухоли нет/1646.jpg,train,p00337,КТ,Другое,True,,,False,,,False,1,КТ,Другое,False,False,True,False,False,False,False,False,True,False,"A: кальцинаты (вероятнее), либо артефакты",артефакт или болезнь,,
+243,7,Обучающая выборка/Опухоли нет/N_395.jpg,train,p00337,КТ,Другое,True,,,False,,,False,1,КТ,Другое,False,False,True,False,False,False,False,False,True,False,"A: кальцинаты (вероятнее), либо артефакты",артефакт или болезнь,,
+244,7,Обучающая выборка/Опухоли нет/Tr-no_0302.jpg,train,p00337,КТ,Другое,True,,,False,,,False,1,КТ,Другое,False,False,True,False,False,False,False,False,True,False,"A: кальцинаты (вероятнее), либо артефакты",артефакт или болезнь,,
+245,7,Обучающая выборка/Опухоли нет/1628.jpg,train,p00338,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,,,,
+246,7,Обучающая выборка/Опухоли нет/Tr-no_0441.jpg,train,p00338,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,,,,
+247,7,Обучающая выборка/Опухоли нет/1638.jpg,train,p00339,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: лейкоареоз,болезнь,,
+248,7,Обучающая выборка/Опухоли нет/Tr-no_0428.jpg,train,p00339,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: лейкоареоз,болезнь,,
+249,7,Обучающая выборка/Опухоли нет/1749.jpg,train,p00340,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: кольцевидные образования в височных долях,находка,,
+250,7,Обучающая выборка/Опухоли нет/Tr-no_0277.jpg,train,p00341,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+251,7,Обучающая выборка/Опухоли нет/Tr-no_0214.jpg,train,p00342,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: гидроцефалия,болезнь,,
+252,7,Тестова выборка/Опухоли нет/1381.jpg,train,p00343,T1|?,Норма,True,,,False,,,False,1,T1|?,Норма,False,False,False,False,False,False,True,False,False,True,,,,
+253,7,Обучающая выборка/Опухоли нет/Tr-no_0150.jpg,val,p00344,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+254,7,Обучающая выборка/Опухоли нет/Tr-no_0244.jpg,test,p00345,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+255,7,Обучающая выборка/Опухоли нет/Tr-no_0106.jpg,train,p00346,T2,,True,,,False,,,False,1,T2,,False,True,False,False,False,False,False,False,False,False,,,,
+256,7,Обучающая выборка/Опухоли нет/1598.jpg,train,p00347,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+257,7,Обучающая выборка/Опухоли нет/1620.jpg,train,p00347,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+258,7,Тестова выборка/Опухоли нет/1391.jpg,train,p00347,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+259,7,Обучающая выборка/Опухоли нет/No21.jpg,test,p00348,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+260,7,Тестова выборка/Опухоли нет/1394.jpg,train,p00349,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+261,7,Обучающая выборка/Опухоли нет/Tr-no_0398.jpg,train,p00350,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+262,7,Обучающая выборка/Опухоли нет/1711.jpg,train,p00351,КТ,Норма,True,,,False,,,False,1,КТ,Норма,False,False,True,False,False,False,False,False,False,True,,,,
+263,7,Обучающая выборка/Опухоли нет/Tr-no_0289.jpg,val,p00352,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+264,7,Обучающая выборка/Опухоли нет/Tr-no_0405.jpg,train,p00353,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+265,7,Обучающая выборка/Опухоли нет/Tr-no_0598.jpg,train,p00353,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+266,7,Обучающая выборка/Опухоли нет/Tr-no_0067.jpg,train,p00354,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,"A: энцефаломиелит, рассеянный склероз",болезнь,,
+267,7,Обучающая выборка/Опухоли нет/Tr-no_0251.jpg,train,p00355,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+268,7,Обучающая выборка/Опухоли нет/1698.jpg,test,p00356,FLAIR|?,Другое,True,,,False,,,False,1,FLAIR|?,Другое,False,False,False,False,False,False,True,False,True,False,A: очаги в белом веществе,находка,,
+269,7,Обучающая выборка/Опухоли нет/Tr-no_0596.jpg,test,p00356,FLAIR|?,Другое,True,,,False,,,False,1,FLAIR|?,Другое,False,False,False,False,False,False,True,False,True,False,A: очаги в белом веществе,находка,,
+270,7,Обучающая выборка/Опухоли нет/1623.jpg,train,p00357,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: лейкоареоз,болезнь,,
+271,7,Обучающая выборка/Опухоли нет/1641.jpg,train,p00357,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: лейкоареоз,болезнь,,
+272,7,Обучающая выборка/Опухоли нет/Tr-no_0138.jpg,train,p00358,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+273,7,Тестова выборка/Опухоли нет/1415.jpg,train,p00359,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+274,7,Обучающая выборка/Опухоли нет/Tr-no_0583.jpg,train,p00360,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+275,7,Тестова выборка/Опухоли нет/1418.jpg,train,p00360,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+276,7,Обучающая выборка/Опухоли нет/Tr-no_0068.jpg,train,p00361,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+277,7,Обучающая выборка/Опухоли нет/1729.jpg,train,p00362,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+278,7,Обучающая выборка/Опухоли нет/Tr-no_0084.jpg,val,p00363,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+279,7,Обучающая выборка/Опухоли нет/Tr-no_0114.jpg,test,p00364,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+280,7,Обучающая выборка/Опухоли нет/Tr-no_0181.jpg,test,p00364,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+281,8,Тестова выборка/Опухоли нет/1434.jpg,train,p00365,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+282,8,Обучающая выборка/Опухоли нет/Tr-no_0108.jpg,train,p00366,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+283,8,Обучающая выборка/Опухоли нет/Tr-no_0101.jpg,train,p00367,T2,Опухоль,True,,,False,,,False,1,T2,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+284,8,Обучающая выборка/Опухоли нет/Tr-no_0440.jpg,train,p00368,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+285,8,Тестова выборка/Опухоли нет/1442.jpg,train,p00368,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+286,8,Обучающая выборка/Опухоли нет/1682.jpg,val,p00369,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+287,8,Тестова выборка/Опухоли нет/1446.jpg,train,p00370,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+288,8,Обучающая выборка/Опухоли нет/1614.jpg,train,p00371,КТ,Опухоль|Другое,True,,,False,,,False,1,КТ,Опухоль|Другое,False,False,True,False,False,False,False,True,True,False,,,,
+289,8,Обучающая выборка/Опухоли нет/Tr-no_0184.jpg,train,p00372,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+290,8,Обучающая выборка/Опухоли нет/Tr-no_0117.jpg,train,p00373,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+291,8,Обучающая выборка/Опухоли нет/Te-no_0089.jpg,val,p00374,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: артефакты — мелкие точки,артефакт,,
+292,8,Обучающая выборка/Опухоли нет/Tr-no_0092.jpg,train,p00375,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+293,8,Обучающая выборка/Опухоли нет/Tr-no_0134.jpg,train,p00376,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+294,8,Тестова выборка/Опухоли нет/1462.jpg,test,p00377,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+295,8,Обучающая выборка/Опухоли нет/1654.jpg,test,p00378,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+296,8,Обучающая выборка/Опухоли нет/Tr-no_0147.jpg,test,p00378,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+297,8,Обучающая выборка/Опухоли нет/1596.jpg,train,p00379,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+298,8,Тестова выборка/Опухоли нет/1477.jpg,val,p00380,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+299,8,Обучающая выборка/Опухоли нет/Tr-no_0133.jpg,train,p00381,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: артефакты?,артефакт,,
+300,8,Тестова выборка/Опухоли нет/1486.jpg,train,p00382,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+301,8,Обучающая выборка/Опухоли нет/N_376.jpg,train,p00383,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+302,8,Обучающая выборка/Опухоли нет/1812.jpg,train,p00384,T1,Другое,True,,,False,,,False,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,A: адренолейкодистрофия,болезнь,,
+303,8,Обучающая выборка/Опухоли нет/1661.jpg,train,p00385,T2,Другое,True,,,False,,,False,1,T2,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+304,8,Обучающая выборка/Опухоли нет/1670.jpg,train,p00385,T2,Другое,True,,,False,,,False,1,T2,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+305,8,Обучающая выборка/Опухоли нет/Tr-no_0317.jpg,val,p00386,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+306,8,Тестова выборка/Опухоли нет/1513.jpg,test,p00387,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+307,8,Обучающая выборка/Опухоли нет/1804.jpg,train,p00388,КТ,Опухоль,True,,,False,,,False,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,A: острая на фоне хронической субдуральная гематома,болезнь,,
+308,8,Обучающая выборка/Опухоли нет/N_371.jpg,train,p00388,КТ,Опухоль,True,,,False,,,False,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,A: острая на фоне хронической субдуральная гематома,болезнь,,
+309,8,Обучающая выборка/Опухоли нет/1624.jpg,train,p00389,?,Норма,True,,,False,,,False,1,?,Норма,False,False,False,False,False,False,True,False,False,True,A: режим TOF-MRA,режим,,
+310,8,Обучающая выборка/Опухоли нет/Tr-no_0389.jpg,val,p00390,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+311,8,Обучающая выборка/Опухоли нет/Tr-no_0278.jpg,train,p00391,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+312,8,Тестова выборка/Опухоли нет/1532.jpg,train,p00392,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+313,8,Обучающая выборка/Опухоли нет/Tr-no_0201.jpg,train,p00393,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+314,8,Тестова выборка/Опухоли нет/1542.jpg,test,p00394,FLAIR,Другое,True,,,False,,,False,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,A: очаги в белом веществе,находка,,
+315,8,Обучающая выборка/Опухоли нет/Tr-no_0090.jpg,val,p00395,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+316,8,Обучающая выборка/Опухоли нет/Tr-no_0161.jpg,train,p00396,T2,Норма,True,,,False,,,False,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+317,8,Обучающая выборка/Опухоли нет/Tr-no_0265.jpg,train,p00397,T1,Норма|Другое,True,,,False,,,False,1,T1,Норма|Другое,False,False,False,False,False,True,False,False,True,False,A: может быть гидроцефалия,болезнь,,
+318,8,Обучающая выборка/Опухоли нет/Tr-no_0121.jpg,train,p00398,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+319,8,Обучающая выборка/Опухоли нет/1874.jpg,test,p00399,FLAIR,Норма,True,,,False,,,False,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+320,8,Обучающая выборка/Опухоли нет/1762.jpg,train,p00400,T1,Норма,True,,,False,,,False,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+321,9,Обучающая выборка/Опухоли нет/Tr-no_0023.jpg,train,p00401,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+322,9,Обучающая выборка/Опухоли нет/Tr-no_0621.jpg,train,p00401,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+323,9,Обучающая выборка/Опухоли нет/1587.jpg,train,p00757,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+324,9,Обучающая выборка/Опухоли нет/1589.jpg,train,p00758,,,False,,,False,T1+К,,True,1,T1+К,,False,True,False,True,True,True,False,False,False,False,,,,
+325,9,Обучающая выборка/Опухоли нет/1593.jpg,train,p00759,,,False,,,False,КТ,Норма,True,1,КТ,Норма,False,False,True,False,False,False,False,False,False,True,,,,
+326,9,Обучающая выборка/Опухоли нет/1595.jpg,val,p00760,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+327,9,Обучающая выборка/Опухоли нет/1604.jpg,train,p00761,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+328,9,Обучающая выборка/Опухоли нет/1607.jpg,train,p00762,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+329,9,Обучающая выборка/Опухоли нет/1630.jpg,train,p00763,,,False,,,False,КТ,Опухоль,True,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,,,,
+330,9,Обучающая выборка/Опухоли нет/1645.jpg,train,p00764,,,False,,,False,T2,,True,1,T2,,False,True,False,False,False,False,False,False,False,False,,,,
+331,9,Обучающая выборка/Опухоли нет/1653.jpg,train,p00765,,,False,,,False,T2,,True,1,T2,,False,True,False,False,False,False,False,False,False,False,,,,
+332,9,Обучающая выборка/Опухоли нет/1660.jpg,train,p00766,,,False,,,False,КТ,Опухоль,True,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,,,,
+333,9,Обучающая выборка/Опухоли нет/1669.jpg,train,p00767,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+334,9,Обучающая выборка/Опухоли нет/1677.jpg,train,p00768,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+335,9,Обучающая выборка/Опухоли нет/1678.jpg,test,p00769,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+336,9,Обучающая выборка/Опухоли нет/1692.jpg,train,p00770,,,False,,,False,КТ,Опухоль,True,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,,,,
+337,9,Обучающая выборка/Опухоли нет/1696.jpg,train,p00771,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+338,9,Обучающая выборка/Опухоли нет/1704.jpg,val,p00772,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+339,9,Обучающая выборка/Опухоли нет/N_397.jpg,val,p00772,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+340,9,Обучающая выборка/Опухоли нет/1738.jpg,train,p00773,,,False,,,False,КТ,Норма,True,1,КТ,Норма,False,False,True,False,False,False,False,False,False,True,,,,
+341,9,Обучающая выборка/Опухоли нет/1759.jpg,train,p00774,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+342,9,Обучающая выборка/Опухоли нет/N_410.jpg,train,p00775,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+343,9,Обучающая выборка/Опухоли нет/1776.jpg,train,p00776,,,False,,,False,T2,Опухоль,True,1,T2,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+344,9,Обучающая выборка/Опухоли нет/1795.jpg,train,p00777,,,False,,,False,T1|?,Другое,True,1,T1|?,Другое,False,False,False,False,False,False,True,False,True,False,C: знак вопроса на снимке,сомнение,,
+345,9,Обучающая выборка/Опухоли нет/1797.jpg,test,p00778,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+346,9,Обучающая выборка/Опухоли нет/1800.jpg,train,p00779,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+347,9,Обучающая выборка/Опухоли нет/1801.jpg,train,p00780,,,False,,,False,КТ,Опухоль,True,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,,,,
+348,9,Обучающая выборка/Опухоли нет/1854.jpg,test,p00781,,,False,,,False,КТ,Опухоль,True,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,,,,
+349,9,Обучающая выборка/Опухоли нет/19 no.jpg,val,p00782,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+350,9,Обучающая выборка/Опухоли нет/1924.jpg,train,p00783,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+351,9,Обучающая выборка/Опухоли нет/N1.JPG,val,p00784,,,False,,,False,КТ,Опухоль,True,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,,,,
+352,9,Обучающая выборка/Опухоли нет/N11.jpg,train,p00785,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+353,9,Обучающая выборка/Опухоли нет/N15.jpg,train,p00786,,,False,,,False,КТ,Опухоль,True,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,,,,
+354,9,Обучающая выборка/Опухоли нет/N26.JPG,train,p00787,,,False,,,False,T2,Опухоль,True,1,T2,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+355,9,Обучающая выборка/Опухоли нет/Tr-no_0392.jpg,train,p00788,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+356,9,Обучающая выборка/Опухоли нет/Tr-no_0094.jpg,train,p00789,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+357,9,Обучающая выборка/Опухоли нет/N_37.jpg,train,p00791,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+358,9,Обучающая выборка/Опухоли нет/Tr-no_0246.jpg,train,p00792,,,False,,,False,КТ,Норма,True,1,КТ,Норма,False,False,True,False,False,False,False,False,False,True,,,,
+359,9,Обучающая выборка/Опухоли нет/N_4.jpg,train,p00793,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+360,9,Обучающая выборка/Опухоли нет/N_411.jpg,val,p00794,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+361,10,Обучающая выборка/Опухоли нет/Te-no_0091.jpg,test,p00795,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+362,10,Обучающая выборка/Опухоли нет/Te-no_0094.jpg,train,p00796,,,False,,,False,КТ,Опухоль,True,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,,,,
+363,10,Обучающая выборка/Опухоли нет/N_434.jpg,train,p00797,,,False,,,False,КТ,Опухоль,True,1,КТ,Опухоль,False,False,True,False,False,False,False,True,False,False,,,,
+364,10,Обучающая выборка/Опухоли нет/Te-no_0097.jpg,train,p00798,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,C: знак вопроса на снимке,сомнение,,
+365,10,Обучающая выборка/Опухоли нет/N_44.jpg,train,p00799,,,False,,,False,КТ,Норма,True,1,КТ,Норма,False,False,True,False,False,False,False,False,False,True,,,,
+366,10,Обучающая выборка/Опухоли нет/No13.jpg,test,p00800,,,False,,,False,T1+К,Норма,True,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,
+367,10,Обучающая выборка/Опухоли нет/No16.jpg,train,p00801,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+368,10,Обучающая выборка/Опухоли нет/Tr-no_0021.jpg,test,p00802,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+369,10,Обучающая выборка/Опухоли нет/Tr-no_0243.jpg,val,p00803,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+370,10,Обучающая выборка/Опухоли нет/Tr-no_0030.jpg,train,p00804,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+371,10,Обучающая выборка/Опухоли нет/Tr-no_0071.jpg,train,p00805,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+372,10,Обучающая выборка/Опухоли нет/Tr-no_0072.jpg,train,p00806,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+373,10,Обучающая выборка/Опухоли нет/Tr-no_0073.jpg,train,p00807,,,False,,,False,T1,Другое,True,1,T1,Другое,False,False,False,False,False,True,False,False,True,False,,,,
+374,10,Обучающая выборка/Опухоли нет/Tr-no_0075.jpg,val,p00808,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+375,10,Обучающая выборка/Опухоли нет/Tr-no_0076.jpg,test,p00809,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+376,10,Обучающая выборка/Опухоли нет/Tr-no_0082.jpg,train,p00810,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+377,10,Обучающая выборка/Опухоли нет/Tr-no_0085.jpg,train,p00811,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+378,10,Обучающая выборка/Опухоли нет/Tr-no_0086.jpg,train,p00812,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+379,10,Обучающая выборка/Опухоли нет/Tr-no_0088.jpg,train,p00813,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,C: обведенная область и знак вопроса,сомнение,,
+380,10,Обучающая выборка/Опухоли нет/Tr-no_0089.jpg,test,p00814,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+381,10,Обучающая выборка/Опухоли нет/Tr-no_0093.jpg,test,p00815,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+382,10,Обучающая выборка/Опухоли нет/Tr-no_0095.jpg,train,p00816,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+383,10,Обучающая выборка/Опухоли нет/Tr-no_0096.jpg,train,p00817,,,False,,,False,КТ,Норма,True,1,КТ,Норма,False,False,True,False,False,False,False,False,False,True,,,,
+384,10,Обучающая выборка/Опухоли нет/Tr-no_0098.jpg,train,p00818,,,False,,,False,?,Норма,True,1,?,Норма,False,False,False,False,False,False,True,False,False,True,,,,
+385,10,Обучающая выборка/Опухоли нет/Tr-no_0103.jpg,train,p00819,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,C: пометка в углу снимка,сомнение,,
+386,10,Обучающая выборка/Опухоли нет/Tr-no_0105.jpg,test,p00820,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+387,10,Обучающая выборка/Опухоли нет/Tr-no_0107.jpg,val,p00821,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+388,10,Обучающая выборка/Опухоли нет/Tr-no_0110.jpg,train,p00822,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+389,10,Обучающая выборка/Опухоли нет/Tr-no_0111.jpg,train,p00823,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+390,10,Обучающая выборка/Опухоли нет/Tr-no_0112.jpg,train,p00824,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+391,10,Обучающая выборка/Опухоли нет/Tr-no_0115.jpg,train,p00825,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+392,10,Обучающая выборка/Опухоли нет/Tr-no_0127.jpg,test,p00826,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+393,10,Обучающая выборка/Опухоли нет/Tr-no_0128.jpg,train,p00827,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+394,10,Обучающая выборка/Опухоли нет/Tr-no_0129.jpg,val,p00828,,,False,,,False,T1+К,Норма,True,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,
+395,10,Обучающая выборка/Опухоли нет/Tr-no_0141.jpg,val,p00829,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+396,10,Обучающая выборка/Опухоли нет/Tr-no_0163.jpg,val,p00830,,,False,,,False,T2,Опухоль,True,1,T2,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+397,10,Обучающая выборка/Опухоли нет/Tr-no_0167.jpg,train,p00831,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+398,10,Обучающая выборка/Опухоли нет/Tr-no_0170.jpg,train,p00832,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+399,10,Обучающая выборка/Опухоли нет/Tr-no_0173.jpg,train,p00833,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+400,10,Обучающая выборка/Опухоли нет/Tr-no_0174.jpg,test,p00834,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+401,11,Обучающая выборка/Опухоли нет/Tr-no_0188.jpg,train,p00835,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+402,11,Обучающая выборка/Опухоли нет/Tr-no_0190.jpg,test,p00836,,,False,,,False,FLAIR,Опухоль,True,1,FLAIR,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+403,11,Обучающая выборка/Опухоли нет/Tr-no_0193.jpg,train,p00837,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+404,11,Обучающая выборка/Опухоли нет/Tr-no_0194.jpg,train,p00838,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+405,11,Обучающая выборка/Опухоли нет/Tr-no_0196.jpg,val,p00839,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+406,11,Обучающая выборка/Опухоли нет/Tr-no_0198.jpg,train,p00840,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+407,11,Обучающая выборка/Опухоли нет/Tr-no_0204.jpg,val,p00841,,,False,,,False,FLAIR,Опухоль,True,1,FLAIR,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+408,11,Обучающая выборка/Опухоли нет/Tr-no_0205.jpg,train,p00842,,,False,,,False,FLAIR,Опухоль,True,1,FLAIR,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+409,11,Обучающая выборка/Опухоли нет/Tr-no_0206.jpg,train,p00843,,,False,,,False,,Опухоль,True,1,,Опухоль,True,False,False,False,False,False,False,True,False,False,,,,
+410,11,Обучающая выборка/Опухоли нет/Tr-no_0207.jpg,train,p00844,,,False,,,False,FLAIR,Опухоль,True,1,FLAIR,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+411,11,Обучающая выборка/Опухоли нет/Tr-no_0208.jpg,val,p00845,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+412,11,Обучающая выборка/Опухоли нет/Tr-no_0209.jpg,train,p00846,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+413,11,Обучающая выборка/Опухоли нет/Tr-no_0210.jpg,train,p00847,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+414,11,Обучающая выборка/Опухоли нет/Tr-no_0211.jpg,test,p00848,,,False,,,False,FLAIR,Другое,True,1,FLAIR,Другое,False,False,False,False,False,False,False,False,True,False,,,,
+415,11,Обучающая выборка/Опухоли нет/Tr-no_0212.jpg,val,p00849,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+416,11,Обучающая выборка/Опухоли нет/Tr-no_0217.jpg,train,p00850,,,False,,,False,T1+К,Норма,True,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,
+417,11,Обучающая выборка/Опухоли нет/Tr-no_0218.jpg,train,p00851,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+418,11,Обучающая выборка/Опухоли нет/Tr-no_0226.jpg,train,p00852,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+419,11,Обучающая выборка/Опухоли нет/Tr-no_0232.jpg,train,p00853,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+420,11,Обучающая выборка/Опухоли нет/Tr-no_0240.jpg,train,p00854,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+421,11,Обучающая выборка/Опухоли нет/Tr-no_0241.jpg,train,p00855,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+422,11,Обучающая выборка/Опухоли нет/Tr-no_0247.jpg,train,p00856,,,False,,,False,T2,Опухоль,True,1,T2,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+423,11,Обучающая выборка/Опухоли нет/Tr-no_0248.jpg,test,p00857,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+424,11,Обучающая выборка/Опухоли нет/Tr-no_0249.jpg,train,p00858,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+425,11,Обучающая выборка/Опухоли нет/Tr-no_0252.jpg,val,p00859,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+426,11,Обучающая выборка/Опухоли нет/Tr-no_0254.jpg,train,p00860,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+427,11,Обучающая выборка/Опухоли нет/Tr-no_0256.jpg,test,p00861,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+428,11,Обучающая выборка/Опухоли нет/Tr-no_0261.jpg,train,p00862,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+429,11,Обучающая выборка/Опухоли нет/Tr-no_0262.jpg,train,p00863,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+430,11,Обучающая выборка/Опухоли нет/Tr-no_0263.jpg,train,p00864,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+431,11,Обучающая выборка/Опухоли нет/Tr-no_0266.jpg,train,p00865,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+432,11,Обучающая выборка/Опухоли нет/Tr-no_0269.jpg,train,p00866,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+433,11,Обучающая выборка/Опухоли нет/Tr-no_0271.jpg,test,p00867,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+434,11,Обучающая выборка/Опухоли нет/Tr-no_0272.jpg,train,p00868,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+435,11,Обучающая выборка/Опухоли нет/Tr-no_0275.jpg,val,p00869,,,False,,,False,FLAIR,Норма,True,1,FLAIR,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+436,11,Обучающая выборка/Опухоли нет/Tr-no_0281.jpg,test,p00870,,,False,,,False,T1+К,Норма,True,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,
+437,11,Обучающая выборка/Опухоли нет/Tr-no_0283.jpg,train,p00871,,,False,,,False,T1+К,Норма,True,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,
+438,11,Обучающая выборка/Опухоли нет/Tr-no_0285.jpg,train,p00872,,,False,,,False,T1+К,Норма,True,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,
+439,11,Обучающая выборка/Опухоли нет/Tr-no_0287.jpg,train,p00873,,,False,,,False,T1+К,Норма,True,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,
+440,11,Обучающая выборка/Опухоли нет/Tr-no_0288.jpg,train,p00874,,,False,,,False,T2,Опухоль,True,1,T2,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+441,12,Обучающая выборка/Опухоли нет/Tr-no_0293.jpg,train,p00875,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+442,12,Обучающая выборка/Опухоли нет/Tr-no_0295.jpg,train,p00876,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+443,12,Обучающая выборка/Опухоли нет/Tr-no_0297.jpg,train,p00877,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+444,12,Обучающая выборка/Опухоли нет/Tr-no_0299.jpg,test,p00878,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+445,12,Обучающая выборка/Опухоли нет/Tr-no_0301.jpg,test,p00879,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+446,12,Обучающая выборка/Опухоли нет/Tr-no_0306.jpg,val,p00880,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+447,12,Обучающая выборка/Опухоли нет/Tr-no_0312.jpg,test,p00881,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+448,12,Обучающая выборка/Опухоли нет/Tr-no_0314.jpg,val,p00882,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+449,12,Обучающая выборка/Опухоли нет/Tr-no_0315.jpg,train,p00883,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+450,12,Обучающая выборка/Опухоли нет/Tr-no_0371.jpg,train,p00884,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+451,12,Обучающая выборка/Опухоли нет/Tr-no_0372.jpg,train,p00885,,,False,,,False,T1,Опухоль,True,1,T1,Опухоль,False,False,False,False,False,True,False,True,False,False,,,,
+452,12,Обучающая выборка/Опухоли нет/Tr-no_0377.jpg,train,p00886,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+453,12,Обучающая выборка/Опухоли нет/Tr-no_0379.jpg,train,p00887,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+454,12,Обучающая выборка/Опухоли нет/Tr-no_0380.jpg,train,p00888,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+455,12,Обучающая выборка/Опухоли нет/Tr-no_0381.jpg,train,p00889,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+456,12,Обучающая выборка/Опухоли нет/Tr-no_0382.jpg,train,p00890,,,False,,,False,T2,Опухоль,True,1,T2,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+457,12,Обучающая выборка/Опухоли нет/Tr-no_0383.jpg,train,p00891,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+458,12,Обучающая выборка/Опухоли нет/Tr-no_0385.jpg,train,p00892,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+459,12,Обучающая выборка/Опухоли нет/Tr-no_0387.jpg,train,p00893,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+460,12,Обучающая выборка/Опухоли нет/Tr-no_0388.jpg,train,p00894,,,False,,,False,FLAIR,Опухоль,True,1,FLAIR,Опухоль,False,False,False,False,False,False,False,True,False,False,,,,
+461,12,Обучающая выборка/Опухоли нет/Tr-no_0391.jpg,val,p00895,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+462,12,Обучающая выборка/Опухоли нет/Tr-no_0435.jpg,train,p00896,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+463,12,Обучающая выборка/Опухоли нет/Tr-no_0529.jpg,train,p00897,,,False,,,False,T2,Норма,True,1,T2,Норма,False,False,False,False,False,False,False,False,False,True,,,,
+464,12,Обучающая выборка/Опухоли нет/Tr-no_0556.jpg,train,p00898,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+465,12,Обучающая выборка/Опухоли нет/Tr-no_0691.jpg,val,p00899,,,False,,,False,T1,Норма,True,1,T1,Норма,False,False,False,False,False,True,False,False,False,True,,,,
+466,12,Обучающая выборка/Опухоли нет/no 98.jpg,test,p00900,,,False,,,False,T1+К,Норма,True,1,T1+К,Норма,False,False,False,True,True,True,False,False,False,True,,,,

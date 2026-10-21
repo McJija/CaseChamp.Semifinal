@@ -1,0 +1,431 @@
+path,aug,cls,answer,present,orig_answer,flag
+Тестова выборка/ Глиома/G_73_BR_.jpg,BR,glioma,meningioma,True,meningioma,False
+Тестова выборка/ Глиома/G_73_DA_.jpg,DA,glioma,meningioma,True,meningioma,True
+Тестова выборка/ Глиома/G_73_HF_.jpg,HF,glioma,meningioma,True,meningioma,False
+Тестова выборка/ Глиома/G_73_RO_.jpg,RO,glioma,meningioma,True,meningioma,False
+Тестова выборка/ Глиома/G_73_SP_.jpg,SP,glioma,meningioma,True,meningioma,True
+Тестова выборка/ Глиома/G_73_VF_.jpg,VF,glioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_780_BR_.jpg,BR,meningioma,glioma,True,glioma,False
+Тестова выборка/ Менингиома/M_780_DA_.jpg,DA,meningioma,glioma,True,glioma,False
+Тестова выборка/ Менингиома/M_780_HF_.jpg,HF,meningioma,glioma,True,glioma,False
+Тестова выборка/ Менингиома/M_780_RO_.jpg,RO,meningioma,glioma,True,glioma,False
+Тестова выборка/ Менингиома/M_780_SP_.jpg,SP,meningioma,glioma,True,glioma,False
+Тестова выборка/ Менингиома/M_780_VF_.jpg,VF,meningioma,meningioma,True,glioma,False
+Тестова выборка/ Менингиома/M_781_BR_.jpg,BR,meningioma,glioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_781_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_781_HF_.jpg,HF,meningioma,glioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_781_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_781_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_781_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_782_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_782_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_782_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_782_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_782_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_782_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_783_BR_.jpg,BR,meningioma,glioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_783_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_783_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_783_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_783_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_783_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_785_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_785_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_785_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_785_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_785_SP_.jpg,SP,meningioma,pituitary,True,meningioma,False
+Тестова выборка/ Менингиома/M_785_VF_.jpg,VF,meningioma,glioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_797_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_797_DA_.jpg,DA,meningioma,pituitary,True,meningioma,False
+Тестова выборка/ Менингиома/M_797_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_797_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_797_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_797_VF_.jpg,VF,meningioma,glioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_809_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_809_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_809_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_809_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_809_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Тестова выборка/ Менингиома/M_809_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Глиома/G_709_BR_.jpg,BR,glioma,meningioma,True,meningioma,False
+Обучающая выборка/Глиома/G_709_DA_.jpg,DA,glioma,meningioma,True,meningioma,False
+Обучающая выборка/Глиома/G_709_HF_.jpg,HF,glioma,meningioma,True,meningioma,False
+Обучающая выборка/Глиома/G_709_RO_.jpg,RO,glioma,meningioma,True,meningioma,False
+Обучающая выборка/Глиома/G_709_SP_.jpg,SP,glioma,glioma,True,meningioma,False
+Обучающая выборка/Глиома/G_709_VF_.jpg,VF,glioma,meningioma,True,meningioma,False
+Обучающая выборка/Глиома/G_710_BR_.jpg,BR,glioma,glioma,True,meningioma,False
+Обучающая выборка/Глиома/G_710_DA_.jpg,DA,glioma,glioma,True,meningioma,False
+Обучающая выборка/Глиома/G_710_HF_.jpg,HF,glioma,glioma,True,meningioma,False
+Обучающая выборка/Глиома/G_710_RO_.jpg,RO,glioma,glioma,True,meningioma,False
+Обучающая выборка/Глиома/G_710_SP_.jpg,SP,glioma,glioma,True,meningioma,False
+Обучающая выборка/Глиома/G_710_VF_.jpg,VF,glioma,meningioma,True,meningioma,False
+Обучающая выборка/Глиома/G_748_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_748_DA_.jpg,DA,glioma,glioma,True,glioma,True
+Обучающая выборка/Глиома/G_748_HF_.jpg,HF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_748_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_748_SP_.jpg,SP,glioma,glioma,True,glioma,True
+Обучающая выборка/Глиома/G_748_VF_.jpg,VF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_749_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_749_DA_.jpg,DA,glioma,glioma,True,glioma,True
+Обучающая выборка/Глиома/G_749_HF_.jpg,HF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_749_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_749_SP_.jpg,SP,glioma,no_tumor,False,glioma,False
+Обучающая выборка/Глиома/G_749_VF_.jpg,VF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_750_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_750_DA_.jpg,DA,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_750_HF_.jpg,HF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_750_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_750_SP_.jpg,SP,glioma,glioma,True,glioma,True
+Обучающая выборка/Глиома/G_750_VF_.jpg,VF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_755_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_755_DA_.jpg,DA,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_755_HF_.jpg,HF,glioma,glioma,True,glioma,True
+Обучающая выборка/Глиома/G_755_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_755_SP_.jpg,SP,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_755_VF_.jpg,VF,glioma,no_tumor,False,glioma,True
+Обучающая выборка/Глиома/G_757_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_757_DA_.jpg,DA,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_757_HF_.jpg,HF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_757_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_757_SP_.jpg,SP,glioma,no_tumor,False,glioma,True
+Обучающая выборка/Глиома/G_757_VF_.jpg,VF,glioma,no_tumor,False,glioma,True
+Обучающая выборка/Глиома/G_790_BR_.jpg,BR,glioma,meningioma,True,glioma,False
+Обучающая выборка/Глиома/G_790_DA_.jpg,DA,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_790_HF_.jpg,HF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_790_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_790_SP_.jpg,SP,glioma,meningioma,True,glioma,False
+Обучающая выборка/Глиома/G_790_VF_.jpg,VF,glioma,glioma,True,glioma,True
+Обучающая выборка/Глиома/G_812_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_812_DA_.jpg,DA,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_812_HF_.jpg,HF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_812_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_812_SP_.jpg,SP,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_812_VF_.jpg,VF,glioma,meningioma,True,glioma,False
+Обучающая выборка/Глиома/G_881_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_881_DA_.jpg,DA,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_881_HF_.jpg,HF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_881_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_881_SP_.jpg,SP,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_881_VF_.jpg,VF,glioma,pituitary,True,glioma,False
+Обучающая выборка/Глиома/G_882_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_882_DA_.jpg,DA,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_882_HF_.jpg,HF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_882_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_882_SP_.jpg,SP,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_882_VF_.jpg,VF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_883_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_883_DA_.jpg,DA,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_883_HF_.jpg,HF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_883_RO_.jpg,RO,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_883_SP_.jpg,SP,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_883_VF_.jpg,VF,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_895_SP_.jpg,SP,glioma,glioma,True,,False
+Обучающая выборка/Глиома/G_895_VF_.jpg,VF,glioma,glioma,True,,False
+Обучающая выборка/Глиома/G_896_BR_.jpg,BR,glioma,glioma,True,glioma,False
+Обучающая выборка/Глиома/G_896_DA_.jpg,DA,glioma,glioma,True,glioma,False
+Обучающая выборка/Менингиома/M_827_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_827_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_827_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_827_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_827_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_827_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_828_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_828_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_828_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_828_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_828_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_828_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_829_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_829_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_829_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_829_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_829_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_829_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_832_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_832_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_832_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_832_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_832_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_832_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_833_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_833_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_833_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_833_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_833_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_833_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_834_BR_.jpg,BR,meningioma,glioma,True,glioma,False
+Обучающая выборка/Менингиома/M_834_DA_.jpg,DA,meningioma,glioma,True,glioma,False
+Обучающая выборка/Менингиома/M_834_HF_.jpg,HF,meningioma,glioma,True,glioma,False
+Обучающая выборка/Менингиома/M_834_RO_.jpg,RO,meningioma,glioma,True,glioma,False
+Обучающая выборка/Менингиома/M_834_SP_.jpg,SP,meningioma,meningioma,True,glioma,True
+Обучающая выборка/Менингиома/M_834_VF_.jpg,VF,meningioma,glioma,True,glioma,False
+Обучающая выборка/Менингиома/M_835_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_835_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_835_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_835_RO_.jpg,RO,meningioma,pituitary,True,meningioma,False
+Обучающая выборка/Менингиома/M_835_SP_.jpg,SP,meningioma,pituitary,True,meningioma,True
+Обучающая выборка/Менингиома/M_835_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_836_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_836_DA_.jpg,DA,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_836_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_836_RO_.jpg,RO,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_836_SP_.jpg,SP,meningioma,pituitary,True,meningioma,True
+Обучающая выборка/Менингиома/M_836_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_837_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_837_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_837_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_837_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_837_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_837_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_838_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_838_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_838_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_838_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_838_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_838_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_839_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_839_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_839_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_839_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_839_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_839_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_840_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_840_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_840_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_840_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_840_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_840_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_841_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_841_DA_.jpg,DA,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_841_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_841_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_841_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_841_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_842_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_842_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_842_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_842_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_842_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_842_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_843_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_843_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_843_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_843_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_843_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_843_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_846_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_846_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_846_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_846_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_846_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_846_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_847_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_847_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_847_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_847_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_847_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_847_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_848_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_848_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_848_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_848_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_848_SP_.jpg,SP,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_848_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_849_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_849_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_849_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_849_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_849_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_849_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_851_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_851_DA_.jpg,DA,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_851_HF_.jpg,HF,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_851_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_851_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_851_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_856_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_856_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_856_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_856_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_856_SP_.jpg,SP,meningioma,meningioma,True,meningioma,True
+Обучающая выборка/Менингиома/M_856_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_859_BR_.jpg,BR,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_859_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_859_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_859_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_859_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_859_VF_.jpg,VF,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_871_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_871_DA_.jpg,DA,meningioma,meningioma,True,meningioma,True
+Обучающая выборка/Менингиома/M_871_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_871_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_871_SP_.jpg,SP,meningioma,glioma,True,meningioma,True
+Обучающая выборка/Менингиома/M_871_VF_.jpg,VF,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_883_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_883_DA_.jpg,DA,meningioma,meningioma,True,meningioma,True
+Обучающая выборка/Менингиома/M_883_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_883_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_883_SP_.jpg,SP,meningioma,meningioma,True,meningioma,True
+Обучающая выборка/Менингиома/M_883_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_886_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_886_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_886_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_886_RO_.jpg,RO,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_886_SP_.jpg,SP,meningioma,meningioma,True,meningioma,True
+Обучающая выборка/Менингиома/M_886_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_887_BR_.jpg,BR,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_887_DA_.jpg,DA,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_887_HF_.jpg,HF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_887_RO_.jpg,RO,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_887_SP_.jpg,SP,meningioma,glioma,True,meningioma,False
+Обучающая выборка/Менингиома/M_887_VF_.jpg,VF,meningioma,meningioma,True,meningioma,False
+Обучающая выборка/Опухоли нет/N_372_BR_.jpg,BR,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_372_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_372_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_372_RO_.jpg,RO,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_372_SP_.jpg,SP,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_372_VF_.jpg,VF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_386_BR_.jpg,BR,no_tumor,meningioma,True,no_tumor,True
+Обучающая выборка/Опухоли нет/N_386_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_386_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_386_RO_.jpg,RO,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_386_SP_.jpg,SP,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_386_VF_.jpg,VF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_397_BR_.jpg,BR,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_397_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_397_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_397_RO_.jpg,RO,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_397_SP_.jpg,SP,no_tumor,glioma,True,no_tumor,True
+Обучающая выборка/Опухоли нет/N_397_VF_.jpg,VF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_405_BR_.jpg,BR,no_tumor,meningioma,True,no_tumor,True
+Обучающая выборка/Опухоли нет/N_405_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_405_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,True
+Обучающая выборка/Опухоли нет/N_405_RO_.jpg,RO,no_tumor,no_tumor,False,no_tumor,True
+Обучающая выборка/Опухоли нет/N_405_SP_.jpg,SP,no_tumor,glioma,True,no_tumor,True
+Обучающая выборка/Опухоли нет/N_405_VF_.jpg,VF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_40_BR_.jpg,BR,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_40_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_40_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_40_RO_.jpg,RO,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_40_SP_.jpg,SP,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_40_VF_.jpg,VF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_411_BR_.jpg,BR,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_411_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_411_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_411_RO_.jpg,RO,no_tumor,no_tumor,False,no_tumor,True
+Обучающая выборка/Опухоли нет/N_411_SP_.jpg,SP,no_tumor,glioma,True,no_tumor,True
+Обучающая выборка/Опухоли нет/N_411_VF_.jpg,VF,no_tumor,glioma,True,no_tumor,True
+Обучающая выборка/Опухоли нет/N_421_BR_.jpg,BR,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_421_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_421_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_421_RO_.jpg,RO,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_421_SP_.jpg,SP,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_421_VF_.jpg,VF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_422_BR_.jpg,BR,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_422_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_422_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_422_RO_.jpg,RO,no_tumor,no_tumor,False,no_tumor,True
+Обучающая выборка/Опухоли нет/N_422_SP_.jpg,SP,no_tumor,pituitary,True,no_tumor,True
+Обучающая выборка/Опухоли нет/N_422_VF_.jpg,VF,no_tumor,meningioma,True,no_tumor,False
+Обучающая выборка/Опухоли нет/N_427_BR_.jpg,BR,no_tumor,no_tumor,False,no_tumor,True
+Обучающая выборка/Опухоли нет/N_427_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_427_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_427_RO_.jpg,RO,no_tumor,pituitary,True,no_tumor,False
+Обучающая выборка/Опухоли нет/N_427_SP_.jpg,SP,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_427_VF_.jpg,VF,no_tumor,pituitary,True,no_tumor,True
+Обучающая выборка/Опухоли нет/N_46_BR_.jpg,BR,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_46_DA_.jpg,DA,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_46_HF_.jpg,HF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_46_RO_.jpg,RO,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_46_SP_.jpg,SP,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Опухоли нет/N_46_VF_.jpg,VF,no_tumor,no_tumor,False,no_tumor,False
+Обучающая выборка/Гипофиз/P_740_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_740_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_740_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_740_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_740_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_740_VF_.jpg,VF,pituitary,glioma,True,pituitary,False
+Обучающая выборка/Гипофиз/P_74_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_74_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_74_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_74_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_74_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_74_VF_.jpg,VF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_773_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_773_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_773_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_773_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_773_SP_.jpg,SP,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_773_VF_.jpg,VF,pituitary,no_tumor,False,pituitary,True
+Обучающая выборка/Гипофиз/P_781_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_781_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_781_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_781_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_781_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_781_VF_.jpg,VF,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_782_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_782_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_782_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_782_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_782_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_782_VF_.jpg,VF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_784_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_784_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_784_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_784_RO_.jpg,RO,pituitary,meningioma,True,pituitary,False
+Обучающая выборка/Гипофиз/P_784_SP_.jpg,SP,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_784_VF_.jpg,VF,pituitary,meningioma,True,pituitary,False
+Обучающая выборка/Гипофиз/P_785_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_785_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_785_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_785_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_785_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_785_VF_.jpg,VF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_786_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_786_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_786_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_786_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_786_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_786_VF_.jpg,VF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_792_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_792_DA_.jpg,DA,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_792_HF_.jpg,HF,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_792_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_792_SP_.jpg,SP,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_792_VF_.jpg,VF,pituitary,no_tumor,False,pituitary,True
+Обучающая выборка/Гипофиз/P_793_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_793_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_793_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_793_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_793_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_793_VF_.jpg,VF,pituitary,no_tumor,False,pituitary,True
+Обучающая выборка/Гипофиз/P_794_BR_.jpg,BR,pituitary,meningioma,True,pituitary,False
+Обучающая выборка/Гипофиз/P_794_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_794_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_794_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_794_SP_.jpg,SP,pituitary,no_tumor,False,pituitary,False
+Обучающая выборка/Гипофиз/P_794_VF_.jpg,VF,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_798_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_798_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_798_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_798_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_798_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_798_VF_.jpg,VF,pituitary,glioma,True,pituitary,False
+Обучающая выборка/Гипофиз/P_824_BR_.jpg,BR,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_824_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_824_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_824_RO_.jpg,RO,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_824_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_824_VF_.jpg,VF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_830_BR_.jpg,BR,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_830_DA_.jpg,DA,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_830_HF_.jpg,HF,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_830_RO_.jpg,RO,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_830_SP_.jpg,SP,pituitary,pituitary,True,pituitary,True
+Обучающая выборка/Гипофиз/P_830_VF_.jpg,VF,pituitary,no_tumor,False,pituitary,False
+Обучающая выборка/Гипофиз/P_842_BR_.jpg,BR,pituitary,meningioma,True,pituitary,False
+Обучающая выборка/Гипофиз/P_842_DA_.jpg,DA,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_842_HF_.jpg,HF,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_842_RO_.jpg,RO,pituitary,meningioma,True,pituitary,False
+Обучающая выборка/Гипофиз/P_842_SP_.jpg,SP,pituitary,pituitary,True,pituitary,False
+Обучающая выборка/Гипофиз/P_842_VF_.jpg,VF,pituitary,pituitary,True,pituitary,False

@@ -1,0 +1,11 @@
+﻿path,split,cls,aug,is_original,source,level,fig_id,fig_cls,pid,pid_base,tf,phash_dist,corr,n_exact,align_corr
+Обучающая выборка/Глиома/Te-gl_0138.jpg,train,glioma,orig,True,kaggle_TrTe,near,2408,glioma,MR048294,MR048294,flipH,6,0.9902999997138977,0,
+Обучающая выборка/Глиома/Tr-gl_0236.jpg,train,glioma,orig,True,kaggle_TrTe,near,2031,glioma,MR051644,MR051644,flipH,2,0.9574000239372253,0,
+Тестова выборка/ Глиома/1323.jpg,test,glioma,orig,True,numeric,near,3039,glioma,MR024780E,MR024780,flipH,6,0.9100000262260437,0,
+Обучающая выборка/Менингиома/Te-me_0151.jpg,train,meningioma,orig,True,kaggle_TrTe,near,21,meningioma,101797,101797,flipH,0,0.9753000140190125,0,
+Обучающая выборка/Менингиома/Tr-me_1300.jpg,train,meningioma,orig,True,kaggle_TrTe,near,150,meningioma,112552,112552,flipH,6,0.9961000084877014,0,
+Обучающая выборка/Менингиома/m2 (152).jpg,train,meningioma,orig,True,paren,near,368,meningioma,112062,112062,id,6,0.9039999842643738,0,
+Обучающая выборка/Гипофиз/Te-pi_0037.jpg,train,pituitary,orig,True,kaggle_TrTe,near,1421,pituitary,98652,98652,id,4,0.9965999722480774,0,
+Обучающая выборка/Гипофиз/Tr-pi_0432.jpg,train,pituitary,orig,True,kaggle_TrTe,near,1071,pituitary,108931,108931,id,0,0.9726999998092651,0,
+Обучающая выборка/Гипофиз/Tr-pi_0792.jpg,train,pituitary,orig,True,kaggle_TrTe,near,1130,pituitary,112074,112074,flipH,6,0.9957000017166138,0,
+Тестова выборка/Гипофиз/1282.jpg,test,pituitary,orig,True,numeric,near,1469,pituitary,101145,101145,flipH,6,0.9135000109672546,0,

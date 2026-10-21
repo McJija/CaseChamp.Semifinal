@@ -1,0 +1,6 @@
+# Пакеты, которые доустанавливаются в Kaggle поверх готового окружения (torch, numpy, pandas,
+# scikit-learn, opencv уже стоят с поддержкой видеокарты — их не трогаем).
+# Версии те же, что в requirements.txt: на них код проверен локально.
+timm==1.0.30
+segmentation-models-pytorch==0.5.0
+albumentations==2.0.8

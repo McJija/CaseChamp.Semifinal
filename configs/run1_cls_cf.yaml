@@ -1,0 +1,10 @@
+# Эксперимент 5.3: классификатор с контрфактическими примерами (опухоль закрашена → «нет опухоли»;
+# закрашен участок вне опухоли → метка прежняя). Сравнение с run1_cls на seed 42, 43, 44.
+_base_: base.yaml
+run: run1_cls_cf
+kind: classifier
+train:
+  epochs: 20
+  epochs_frozen: 1
+  counterfactual:
+    enabled: true
