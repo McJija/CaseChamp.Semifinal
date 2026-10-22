@@ -91,7 +91,8 @@ def plot_causes(err: pd.DataFrame, n_flag_only: int, path: Path) -> None:
     for s in ("top", "right", "bottom", "left"):
         ax.spines[s].set_visible(False)
     ax.set_title(f"Причины {len(err)} ошибок по разбору врача", fontsize=11, color="#0b0b0b", loc="left")
-    fig.text(0.01, 0.02, f"Еще {n_flag_only} случаев — верный ответ с флагом, это не ошибка.", fontsize=9, color="#52514e")
+    fig.text(0.01, 0.02, f"Еще {n_flag_only} случаев — ответ верный, но стоит пометка «требует внимания врача»: это не ошибка.",
+             fontsize=9, color="#52514e")
     fig.tight_layout(rect=(0, 0.06, 1, 1))
     fig.savefig(path)
     plt.close(fig)

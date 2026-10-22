@@ -126,20 +126,20 @@ def fig01_system(m: Models, out: Path) -> None:
     ax.imshow(raw, cmap="gray", extent=ex_in, interpolation="antialiased")
     ax.text(1.3, 1.7, "Снимок МРТ\nT1 с контрастом", ha="center", va="top", fontsize=10, color=st.INK)
     arrow(ax, 2.6, 3.1, 3.2, 3.1)
-    box(ax, 3.3, 2.1, 6.0, 4.1, "Подготовка", "обрезка полей и рамок\n256 × 256 пикселей\nвыравнивание яркости")
+    box(ax, 3.3, 2.1, 6.0, 4.1, "Подготовка", "обрезка черных полей\nединый размер\nвыравнивание яркости")
     arrow(ax, 6.0, 3.4, 6.7, 4.1)
     arrow(ax, 6.0, 2.8, 6.7, 2.1)
-    box(ax, 6.8, 3.5, 10.0, 5.4, "Классификатор", "ResNet34: тип опухоли\nи вероятности;\nтепловая карта")
-    box(ax, 6.8, 0.8, 10.0, 2.7, "Сегментатор", "U-Net: обводка опухоли\nпо пикселям снимка")
+    box(ax, 6.8, 3.5, 10.0, 5.4, "Модель 1 — тип", "называет тип опухоли\nи уверенность;\nтепловая карта —\nкуда смотрела")
+    box(ax, 6.8, 0.8, 10.0, 2.7, "Модель 2 — контур", "обводит опухоль\nпо точкам снимка")
     arrow(ax, 10.0, 4.4, 10.6, 3.9)
     arrow(ax, 10.0, 1.8, 10.6, 2.3)
-    box(ax, 10.7, 1.2, 13.5, 5.0, "Решение", "«опухоль есть», если\nобводка > 50 пикселей\nили вероятность ≥ 0,976\n\nтип — у классификатора\n\nфлаг — если модели\nне согласны",
-        ec=st.MARK)
+    box(ax, 10.7, 1.2, 13.5, 5.0, "Ответ", "«опухоль есть», если\nмодель 2 нашла\nучасток > 50 точек\nили модель 1 уверена\nна 97,6% и больше\n\nтип — от модели 1\n\nпометка — если модели\nне согласны",
+        ec=st.MARK, fs=11)
     arrow(ax, 13.5, 3.1, 13.85, 3.1)
     ax.imshow(img, cmap="gray", extent=ex_out, interpolation="antialiased")
     draw_contours(ax, mask, st.SYSTEM_RED, lw=1.4, extent=ex_out)
     k = int(probs[:NO_TUMOR_IDX].argmax())
-    ax.text(15.1, 1.7, f"Экран врача\n{CLS_RU[CLASSES[k]]} · {probs[k]:.2f}".replace(".", ","),
+    ax.text(15.1, 1.7, f"Экран врача\n{CLS_RU[CLASSES[k]]},\nуверенность {probs[k]:.0%}",
             ha="center", va="top", fontsize=10, color=st.INK)
     fig.savefig(out)
     plt.close(fig)
@@ -159,18 +159,18 @@ def fig02_data(out: Path) -> None:
 
     fig, (a1, a2) = plt.subplots(1, 2, figsize=(13, 4.6), gridspec_kw={"width_ratios": [1.3, 1], "wspace": 0.42})
     steps = [("Файлы организаторов", n_files, ""),
-             ("Без искаженных копий (BR, DA, HF, VF, RO, SP)\nи файлов «- Copy»", n_named_orig, f"−{num(n_files - n_named_orig)}"),
-             ("Уникальные снимки:\nубраны повторы одного снимка", n_unique, f"−{num(n_named_orig - n_unique)}"),
-             ("Рабочие снимки: после ручной проверки\nкласса «нет опухоли»", n_work, f"−{num(n_unique - n_work)}")]
+             ("Без искаженных копий (осветленных,\nотраженных, с шумом и т. п.)", n_named_orig, f"убрали {num(n_files - n_named_orig)}"),
+             ("Уникальные снимки:\nубраны повторы одного снимка", n_unique, f"убрали {num(n_named_orig - n_unique)}"),
+             ("Рабочие снимки: после ручной проверки\nкласса «нет опухоли»", n_work, f"убрали {num(n_unique - n_work)}")]
     y = np.arange(len(steps))[::-1]
     for yi, (label, v, minus) in zip(y, steps):
         a1.barh(yi, v, color=st.MARK if yi == 0 else st.MARK_LIGHT, height=0.62)
-        a1.text(v + 150, yi, num(v) + (f"   {minus}" if minus else ""), va="center", fontsize=15, color=st.INK)
+        a1.text(v + 150, yi, ("осталось " if minus else "") + num(v) + (f"  ({minus})" if minus else ""), va="center", fontsize=15, color=st.INK)
     a1.set_yticks(y, [s_[0] for s_ in steps], fontsize=13.5)
     a1.tick_params(axis="y", length=0)
     a1.set_xticks([])
     a1.spines[["left", "bottom"]].set_visible(False)
-    a1.set_xlim(0, n_files * 1.36)
+    a1.set_xlim(0, n_files * 1.6)
     a1.set_title("Из 12 064 файлов — 3 574 уникальных рабочих снимка", fontsize=16)
 
     parts = ["train", "val", "test"]
@@ -232,7 +232,7 @@ def fig04_occlusion(m: Models, out: Path) -> None:
         path = sub.path.iloc[int(np.abs(areas - np.median(areas)).argmin())]
         img, mask = m.cache.image(path), m.cache.mask(path) > 0
         filled = occlude(img, tumor_region(mask, occ), occ)
-        for i, (im, title) in enumerate(((img, "исходный срез"), (filled, "опухоль закрашена"))):
+        for i, (im, title) in enumerate(((img, "исходный снимок"), (filled, "опухоль закрашена"))):
             probs, _ = m.run(im)
             p_t = 1 - probs[NO_TUMOR_IDX]
             ans = CLASSES[int(probs.argmax())]
@@ -244,7 +244,7 @@ def fig04_occlusion(m: Models, out: Path) -> None:
             for s_ in ax.spines.values():
                 s_.set_visible(False)
             ax.set_title(f"{CLS_RU[typ].replace('опухоль гипофиза', 'гипофиз')}\n{title}" if i == 0 else title, fontsize=9.5, loc="center")
-            ax.text(0.5, -0.04, f"вероятность опухоли {p_t:.3f}\nответ: {CLS_RU[ans]}".replace(".", ","), transform=ax.transAxes,
+            ax.text(0.5, -0.04, f"вероятность опухоли {pct(p_t)}\nответ: {CLS_RU[ans]}", transform=ax.transAxes,
                     ha="center", va="top", fontsize=9, color=st.INK)
     fig.savefig(out)
     plt.close(fig)
@@ -252,8 +252,8 @@ def fig04_occlusion(m: Models, out: Path) -> None:
 
 def fig05_seg_attempts(out: Path) -> None:
     e = pd.read_csv("reports/experiments.csv")
-    runs = [("run1_seg", "1. базовый"), ("run1_seg_crop", "2. на фрагментах 128×128"),
-            ("run1_seg_cf", "3. с закрашенной опухолью"), ("run1_seg_neg", "4. + снимки без опухоли\n    с пустой обводкой")]
+    runs = [("run1_seg", "1. обычное обучение"), ("run1_seg_crop", "2. учили на кусочках снимка"),
+            ("run1_seg_cf", "3. учили на снимках\n    с закрашенной опухолью"), ("run1_seg_neg", "4. добавили 246 здоровых\n    снимков с пустой обводкой")]
     rows = []
     for r, label in runs:
         x = e[e.run == r]
@@ -267,29 +267,30 @@ def fig05_seg_attempts(out: Path) -> None:
         c = st.MARK if chosen else st.MARK_LIGHT
         a1.barh(yi, fm, color=c, height=0.6)
         a1.plot([fl, fh], [yi, yi], color=st.INK2, lw=1.2)
-        a1.text(max(fh, fm) + 1.2, yi, f"{fm:.1f}".replace(".", ",") + f" из 56  ({fl:.0f}–{fh:.0f})", va="center", fontsize=13, color=st.INK)
+        a1.text(max(fh, fm) + 1.2, yi, f"{fl:.0f}–{fh:.0f} из 56", va="center", fontsize=13, color=st.INK)
         a2.barh(yi, d, color=c, height=0.6)
         a2.plot([dl, dh], [yi, yi], color=st.INK2, lw=1.2)
-        a2.text(dh + 0.02, yi, f"{d:.3f}".replace(".", ","), va="center", fontsize=13, color=st.INK)
+        a2.text(dh + 0.02, yi, pct(d, 0), va="center", fontsize=13, color=st.INK)
     a1.set_yticks(y, [r[0] for r in rows], fontsize=13)
     a1.tick_params(axis="y", length=0)
     a2.tick_params(axis="y", length=0)
     a1.set_xlim(0, 80)
     a2.set_xlim(0, 1.0)
-    for a, title in ((a1, "Ложные обводки на снимках без опухоли"), (a2, "Совпадение с эталонной обводкой (Dice)")):
+    for a, title in ((a1, "Здоровые снимки, на которых модель\nошибочно обвела «опухоль» — меньше лучше"),
+                     (a2, "Совпадение контура модели\nс обводкой врача — больше лучше")):
         a.set_xticks([])
         a.spines[["left", "bottom"]].set_visible(False)
         a.set_title(title, fontsize=14)
-    fig.text(0.125, -0.06, "Проверочная часть: 56 снимков без опухоли, 391 срез с обводкой; среднее трех обучений (seed 42, 43, 44), "
-             "отрезок — от худшего до лучшего. Каждое правило замены записано до запуска.", fontsize=10.5, color=st.MUTED)
+    fig.text(0.125, -0.06, "Проверочная часть: 56 здоровых снимков и 391 снимок с обводкой врача. Каждый вариант обучали трижды: "
+             "полоса — среднее, отрезок — от худшего до лучшего повтора.", fontsize=10.5, color=st.MUTED)
     fig.savefig(out)
     plt.close(fig)
 
 
 def fig06_subgroups(metrics: dict, out: Path) -> None:
-    keys = [("опухоли: все", "Опухоли — все"), ("опухоли: figshare", "  срезы Figshare"),
-            ("опухоли: figshare_crop", "  Figshare в другом кадрировании"), ("опухоли: other", "  другие источники"),
-            ("нет опухоли: все", "Нет опухоли — все"), ("нет опухоли: T1", "  режим T1"), ("нет опухоли: другой режим", "  другие режимы")]
+    keys = [("опухоли: все", "Опухоли — все"), ("опухоли: figshare", "  снимки Figshare"),
+            ("опухоли: figshare_crop", "  Figshare, другое кадрирование"), ("опухоли: other", "  снимки из других источников"),
+            ("нет опухоли: все", "Нет опухоли — все"), ("нет опухоли: T1", "  режим МРТ T1"), ("нет опухоли: другой режим", "  другие режимы МРТ")]
     sysd = {r["группа"]: r for r in metrics["presence"]}
     clsd = {r["группа"]: r for r in metrics["presence_classifier_only"]}
     fig, ax = plt.subplots(figsize=(11, 4.6))
@@ -309,11 +310,11 @@ def fig06_subgroups(metrics: dict, out: Path) -> None:
     ax.set_axisbelow(True)
     ax.spines[["left"]].set_visible(False)
     ax.plot([], [], "o", ms=7.5, mfc=st.MARK, mec=st.MARK, label="система (две модели)")
-    ax.plot([], [], "o", ms=7.5, mfc=st.SURFACE, mec=st.MUTED, mew=1.5, label="классификатор один")
+    ax.plot([], [], "o", ms=7.5, mfc=st.SURFACE, mec=st.MUTED, mew=1.5, label="одна модель типа")
     ax.legend(loc="lower left", frameon=False, fontsize=9.5, ncol=2, bbox_to_anchor=(0, 1.0))
-    ax.set_title("Тест, новые пациенты: найдено опухолей и верно «нет опухоли»", pad=26)
-    fig.text(0.125, -0.03, "Точка — доля, отрезок — 95% доверительный интервал. Снимков без опухоли в тесте 49, поэтому интервалы широкие.",
-             fontsize=8.5, color=st.MUTED)
+    ax.set_title("Итоговый тест: доля найденных опухолей и верных ответов «опухоли нет»", pad=26)
+    fig.text(0.125, -0.03, "Точка — доля верных ответов; отрезок — где с вероятностью 95% лежит настоящее значение. "
+             "Снимков без опухоли в тесте 49, поэтому отрезки широкие.", fontsize=8.5, color=st.MUTED)
     fig.savefig(out)
     plt.close(fig)
 
@@ -341,28 +342,28 @@ def fig07_confusion(metrics: dict, out: Path) -> None:
     for s_ in ax.spines.values():
         s_.set_visible(False)
     k, n = metrics["cls"]["type_correct_among_found"]["k"], metrics["cls"]["type_correct_among_found"]["n"]
-    fig.text(0.02, 0.01, f"Тест, 582 снимка. Тип верен у {k} из {n} найденных опухолей ({pct(k / n)}); "
-             "главная путаница — глиома ↔ менингиома.", fontsize=8.5, color=st.MUTED)
+    fig.text(0.02, 0.01, f"Итоговый тест, 582 снимка. Тип верен у {k} из {n} найденных опухолей ({pct(k / n)}); "
+             "чаще всего путаются глиома и менингиома.", fontsize=8.5, color=st.MUTED)
     fig.savefig(out)
     plt.close(fig)
 
 
 def fig08_copies(metrics: dict, out: Path) -> None:
-    names = {"BR": "ярче в 1,9 раза", "DA": "темнее в 2 раза", "HF": "отражение по горизонтали", "RO": "поворот",
-             "VF": "отражение по вертикали", "SP": "шум «соль-перец»"}
+    names = {"BR": "ярче в 1,9 раза", "DA": "темнее в 2 раза", "HF": "отражен слева направо", "RO": "немного повернут",
+             "VF": "перевернут вверх ногами", "SP": "шум: белые и черные точки"}
     c = metrics["copies"]
     rows = sorted(((names[k], v["present_ok"], v["n"]) for k, v in c.items()), key=lambda r: -r[1])
     fig, ax = plt.subplots(figsize=(7.4, 3.3))
     y = np.arange(len(rows))[::-1]
     for yi, (label, v, n) in zip(y, rows):
         ax.barh(yi, v, color=st.MARK if v >= 0.95 else st.MARK_LIGHT, height=0.6)
-        ax.text(v + 0.012, yi, f"{pct(v)}  ({n} копий)", va="center", fontsize=11, color=st.INK)
+        ax.text(v + 0.012, yi, f"{pct(v)} из {n} копий", va="center", fontsize=11, color=st.INK)
     ax.set_yticks(y, [r[0] for r in rows], fontsize=11)
     ax.tick_params(axis="y", length=0)
     ax.set_xlim(0, 1.32)
     ax.set_xticks([])
     ax.spines[["left", "bottom"]].set_visible(False)
-    ax.set_title("Копии организаторов: наличие опухоли определено верно", fontsize=12)
+    ax.set_title("Искаженные копии снимков: доля копий, где система\nверно ответила, есть ли опухоль", fontsize=12)
     fig.savefig(out)
     plt.close(fig)
 
@@ -395,11 +396,11 @@ def fig09_contours(m: Models, out: Path) -> None:
             ax.set_yticks([])
             for s_ in ax.spines.values():
                 s_.set_visible(False)
-            kind = "типичный" if q == 0.5 else "трудный"
-            ax.set_title(f"{CLS_RU[typ].replace('опухоль гипофиза', 'гипофиз')}\nDice {row.dice:.2f}".replace(".", ","), fontsize=9.5, loc="center")
+            kind = "типичный случай" if q == 0.5 else "трудный случай"
+            ax.set_title(f"{CLS_RU[typ].replace('опухоль гипофиза', 'гипофиз')}\nсовпадение {pct(row.dice, 0)}", fontsize=9.5, loc="center")
             if j == 0:
                 ax.set_ylabel(kind, fontsize=10.5, color=st.INK2)
-    fig.text(0.5, 0.02, "красная — система, зеленая — эталон Figshare", ha="center", fontsize=9.5, color=st.INK2)
+    fig.text(0.5, 0.02, "красная линия — контур системы, зеленая — обводка врача", ha="center", fontsize=9.5, color=st.INK2)
     fig.savefig(out)
     plt.close(fig)
 
@@ -409,22 +410,22 @@ def fig10_deployment(out: Path) -> None:
     ax.add_patch(FancyBboxPatch((0.15, 0.35), 15.0, 6.2, boxstyle="round,pad=0,rounding_size=0.2", fc="none", ec=st.MUTED, lw=1.1, ls=(0, (5, 4))))
     ax.text(0.4, 6.3, "Больница: снимки и результаты не выходят наружу", fontsize=10, color=st.INK2, va="top", fontweight="bold")
     box(ax, 0.5, 3.9, 2.9, 5.4, "Томограф МРТ")
-    box(ax, 3.7, 3.9, 6.1, 5.4, "Архив PACS", "хранение снимков\nи результатов")
-    box(ax, 6.9, 3.9, 11.7, 5.4, "Маршрутизатор DICOM", "отбирает МРТ головы\nT1 с контрастом по тегам серии")
-    box(ax, 12.35, 3.9, 14.95, 5.4, "Журнал аудита", "кто, когда,\nкакой снимок")
-    box(ax, 0.5, 0.8, 5.3, 3.0, "Рабочее место врача", "снимок, обводка, уверенность, флаг\nв привычной программе\nрешение принимает врач")
-    box(ax, 6.9, 0.8, 11.7, 3.0, "Сервер ИИ", "две модели, решение, флаг\nбез видеокарты\n0,6 с на снимок", ec=st.MARK)
-    box(ax, 15.9, 0.8, 18.4, 3.0, "Дообучение", "правки обводок\nпосле\nобезличивания", ls=(0, (4, 3)))
-    arrow(ax, 2.9, 4.65, 3.7, 4.65, label="DICOM")
+    box(ax, 3.7, 3.9, 6.1, 5.4, "Архив (PACS)", "хранит снимки\nи результаты")
+    box(ax, 6.9, 3.9, 11.7, 5.4, "Отбор снимков", "пропускает только МРТ головы\nв режиме T1 с контрастом")
+    box(ax, 12.35, 3.9, 14.95, 5.4, "Журнал", "кто, когда и какой\nснимок смотрел")
+    box(ax, 0.5, 0.8, 5.3, 3.0, "Рабочее место врача", "снимок, контур, уверенность,\nпометка «требует внимания»\nв привычной программе")
+    box(ax, 6.9, 0.8, 11.7, 3.0, "Сервер с системой", "две модели, ответ, пометка\nбез видеокарты\n0,6 с на снимок", ec=st.MARK)
+    box(ax, 15.9, 0.8, 18.4, 3.0, "Доучивание", "контуры,\nисправленные\nврачом, без\nданных пациента", ls=(0, (4, 3)))
+    arrow(ax, 2.9, 4.65, 3.7, 4.65)
     arrow(ax, 6.1, 4.65, 6.9, 4.65)
     arrow(ax, 9.3, 3.9, 9.3, 3.0)
-    ax.text(9.45, 3.45, "серии T1+К", fontsize=9.5, color=st.MUTED, va="center")
+    ax.text(9.45, 3.45, "нужные снимки", fontsize=9.5, color=st.MUTED, va="center")
     arrow(ax, 7.4, 3.0, 5.9, 3.9)
     ax.text(7.05, 3.62, "результат\nотдельной серией", fontsize=9.5, color=st.MUTED, ha="left", va="center")
     arrow(ax, 4.3, 3.9, 4.3, 3.0)
     ax.text(4.15, 3.45, "просмотр", fontsize=9.5, color=st.MUTED, ha="right", va="center")
     arrow(ax, 11.7, 2.7, 12.9, 3.9)
-    arrow(ax, 11.7, 1.4, 15.9, 1.4, ls=(0, (4, 3)), label="обезличенные правки")
+    arrow(ax, 11.7, 1.4, 15.9, 1.4, ls=(0, (4, 3)), label="без имен пациентов")
     fig.savefig(out)
     plt.close(fig)
 
@@ -451,7 +452,7 @@ def fig11_preannotation(m: Models, out: Path) -> None:
     ax.add_patch(plt.Circle((xs.max() + 9, ys.mean()), 6, fc="none", ec="#ffd400", lw=1.6))
     ax.text(xs.max() + 18, ys.mean(), "кисть", color="#ffd400", fontsize=9, va="center")
     ax.axis("off")
-    ax.set_title("Обводку нарисовал сегментатор", fontsize=10.5, loc="left")
+    ax.set_title("Контур предложила модель", fontsize=10.5, loc="left")
 
     p = fig.add_axes((0.48, 0.02, 0.52, 0.9))
     p.set_xlim(0, 10)
