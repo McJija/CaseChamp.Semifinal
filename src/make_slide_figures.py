@@ -157,7 +157,7 @@ def fig02_data(out: Path) -> None:
     n_case_only = len(p) - n_fig
     assert n_fig == 3064 and len(p) == n_fig + n_case_only
 
-    fig, (a1, a2) = plt.subplots(1, 2, figsize=(13, 4.4), gridspec_kw={"width_ratios": [1.35, 1], "wspace": 0.45})
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(13, 4.6), gridspec_kw={"width_ratios": [1.3, 1], "wspace": 0.42})
     steps = [("Файлы организаторов", n_files, ""),
              ("Без искаженных копий (BR, DA, HF, VF, RO, SP)\nи файлов «- Copy»", n_named_orig, f"−{num(n_files - n_named_orig)}"),
              ("Уникальные снимки:\nубраны повторы одного снимка", n_unique, f"−{num(n_named_orig - n_unique)}"),
@@ -165,13 +165,13 @@ def fig02_data(out: Path) -> None:
     y = np.arange(len(steps))[::-1]
     for yi, (label, v, minus) in zip(y, steps):
         a1.barh(yi, v, color=st.MARK if yi == 0 else st.MARK_LIGHT, height=0.62)
-        a1.text(v + 150, yi, num(v) + (f"   {minus}" if minus else ""), va="center", fontsize=12, color=st.INK)
-    a1.set_yticks(y, [s_[0] for s_ in steps], fontsize=11)
+        a1.text(v + 150, yi, num(v) + (f"   {minus}" if minus else ""), va="center", fontsize=15, color=st.INK)
+    a1.set_yticks(y, [s_[0] for s_ in steps], fontsize=13.5)
     a1.tick_params(axis="y", length=0)
     a1.set_xticks([])
     a1.spines[["left", "bottom"]].set_visible(False)
-    a1.set_xlim(0, n_files * 1.28)
-    a1.set_title("Из 12 064 файлов — 3 574 уникальных рабочих снимка", fontsize=13)
+    a1.set_xlim(0, n_files * 1.36)
+    a1.set_title("Из 12 064 файлов — 3 574 уникальных рабочих снимка", fontsize=16)
 
     parts = ["train", "val", "test"]
     names = {"train": "обучение", "val": "проверка", "test": "тест"}
@@ -181,14 +181,14 @@ def fig02_data(out: Path) -> None:
     a2.barh(yy, fig_n, color=st.MARK, height=0.62, label="срезы Figshare с обводкой")
     a2.barh(yy, case_n, left=fig_n, color=st.MARK_LIGHT, height=0.62, label="снимки кейса без пары в Figshare")
     for yi, f_, c_ in zip(yy, fig_n, case_n):
-        a2.text(f_ + c_ + 40, yi, num(f_ + c_), va="center", fontsize=12, color=st.INK)
-    a2.set_yticks(yy, [names[s_] for s_ in parts], fontsize=12)
+        a2.text(f_ + c_ + 40, yi, num(f_ + c_), va="center", fontsize=15, color=st.INK)
+    a2.set_yticks(yy, [names[s_] for s_ in parts], fontsize=15)
     a2.tick_params(axis="y", length=0)
     a2.set_xticks([])
     a2.spines[["left", "bottom"]].set_visible(False)
     a2.set_xlim(0, max(np.add(fig_n, case_n)) * 1.2)
-    a2.set_title(f"Набор для обучения и оценки: {num(len(p))}", fontsize=13)
-    a2.legend(loc="upper left", bbox_to_anchor=(0.0, -0.02), frameon=False, fontsize=10.5, ncol=1)
+    a2.set_title(f"Набор для обучения и оценки: {num(len(p))}", fontsize=16)
+    a2.legend(loc="upper left", bbox_to_anchor=(0.0, -0.02), frameon=False, fontsize=13, ncol=1)
     fig.savefig(out)
     plt.close(fig)
 
@@ -260,28 +260,28 @@ def fig05_seg_attempts(out: Path) -> None:
         assert len(x) == 3, r
         fm = x.val_false_mask_rate * x.val_n_no_tumor_seg
         rows.append((label, fm.mean(), fm.min(), fm.max(), x.val_dice.mean(), x.val_dice.min(), x.val_dice.max(), r == "run1_seg_neg"))
-    fig, (a1, a2) = plt.subplots(1, 2, figsize=(12, 3.8), sharey=True, gridspec_kw={"wspace": 0.08})
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(12, 4.0), sharey=True, gridspec_kw={"wspace": 0.08})
     y = np.arange(len(rows))[::-1]
     for yi, r in zip(y, rows):
         label, fm, fl, fh, d, dl, dh, chosen = r
         c = st.MARK if chosen else st.MARK_LIGHT
         a1.barh(yi, fm, color=c, height=0.6)
         a1.plot([fl, fh], [yi, yi], color=st.INK2, lw=1.2)
-        a1.text(max(fh, fm) + 1.2, yi, f"{fm:.1f}".replace(".", ",") + f" из 56  ({fl:.0f}–{fh:.0f})", va="center", fontsize=9.5, color=st.INK)
+        a1.text(max(fh, fm) + 1.2, yi, f"{fm:.1f}".replace(".", ",") + f" из 56  ({fl:.0f}–{fh:.0f})", va="center", fontsize=13, color=st.INK)
         a2.barh(yi, d, color=c, height=0.6)
         a2.plot([dl, dh], [yi, yi], color=st.INK2, lw=1.2)
-        a2.text(dh + 0.02, yi, f"{d:.3f}".replace(".", ","), va="center", fontsize=9.5, color=st.INK)
-    a1.set_yticks(y, [r[0] for r in rows], fontsize=10)
+        a2.text(dh + 0.02, yi, f"{d:.3f}".replace(".", ","), va="center", fontsize=13, color=st.INK)
+    a1.set_yticks(y, [r[0] for r in rows], fontsize=13)
     a1.tick_params(axis="y", length=0)
     a2.tick_params(axis="y", length=0)
-    a1.set_xlim(0, 75)
+    a1.set_xlim(0, 80)
     a2.set_xlim(0, 1.0)
     for a, title in ((a1, "Ложные обводки на снимках без опухоли"), (a2, "Совпадение с эталонной обводкой (Dice)")):
         a.set_xticks([])
         a.spines[["left", "bottom"]].set_visible(False)
-        a.set_title(title, fontsize=11)
-    fig.text(0.125, -0.05, "Проверочная часть: 56 снимков без опухоли, 391 срез с обводкой; среднее трех обучений (seed 42, 43, 44), "
-             "отрезок — от худшего до лучшего. Каждое правило замены записано до запуска.", fontsize=8.5, color=st.MUTED)
+        a.set_title(title, fontsize=14)
+    fig.text(0.125, -0.06, "Проверочная часть: 56 снимков без опухоли, 391 срез с обводкой; среднее трех обучений (seed 42, 43, 44), "
+             "отрезок — от худшего до лучшего. Каждое правило замены записано до запуска.", fontsize=10.5, color=st.MUTED)
     fig.savefig(out)
     plt.close(fig)
 
@@ -321,7 +321,7 @@ def fig06_subgroups(metrics: dict, out: Path) -> None:
 def fig07_confusion(metrics: dict, out: Path) -> None:
     cm = np.array(metrics["cls"]["confusion"])
     share = cm / cm.sum(1, keepdims=True)
-    cmap = LinearSegmentedColormap.from_list("mark", ["#ffffff", "#4b32c8"])
+    cmap = LinearSegmentedColormap.from_list("mark", ["#fff6e8", "#2a6251"])
     fig, ax = plt.subplots(figsize=(6.6, 5.0))
     ax.imshow(share, cmap=cmap, vmin=0, vmax=1)
     for i in range(4):
