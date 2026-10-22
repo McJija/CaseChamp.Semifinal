@@ -194,22 +194,28 @@ def fig02_data(out: Path) -> None:
 
 
 def fig03_leakage(metrics: dict, out: Path) -> None:
+    """Цена утечки: на тесте организаторов «как есть» — доля файлов с верным ответом (тип опухоли или «нет опухоли»)
+    у пациентов, которых модель видела при обучении, и у новых пациентов. 100% — все файлы группы распознаны верно."""
     o = metrics["organizers_test"]
-    rows = [("Весь тест организаторов", o["весь тест организаторов"], st.MARK_LIGHT),
-            ("Пациенты, которых модель видела\nпри обучении и выборе", o["пациенты из нашего train и val"], st.MARK_MID),
-            ("Новые пациенты", o["наши тестовые пациенты"], st.MARK)]
-    fig, ax = plt.subplots(figsize=(6.2, 2.5))
+    seen, new, total = o["пациенты из нашего train и val"], o["наши тестовые пациенты"], o["весь тест организаторов"]
+    rows = [(f"Пациенты, которых модель\nвидела при обучении\n({num(seen['n'])} файлов)", seen, st.MARK_LIGHT),
+            (f"Новые пациенты\n({num(new['n'])} файлов)", new, st.MARK)]
+    fig, ax = plt.subplots(figsize=(6.2, 3.6))
     y = np.arange(len(rows))[::-1]
     for yi, (label, d, color) in zip(y, rows):
-        ax.barh(yi, d["acc"], color=color, height=0.6)
-        ax.text(d["acc"] + 0.015, yi, f"{pct(d['acc'])}  ({num(d['n'])} файлов)", va="center", fontsize=10.5, color=st.INK)
-    ax.set_yticks(y, [r[0] for r in rows], fontsize=10)
+        ax.barh(yi, 1.0, color=st.GRID, height=0.62)            # фон до 100%
+        ax.barh(yi, d["acc"], color=color, height=0.62)
+        ax.text(d["acc"] - 0.02, yi, pct(d["acc"], 0), va="center", ha="right", fontsize=19, fontweight="bold",
+                color=st.INK if color == st.MARK_LIGHT else "#ffffff")
+    ax.set_yticks(y, [r[0] for r in rows], fontsize=12.5)
     ax.tick_params(axis="y", length=0)
-    ax.set_xlim(0, 1.42)
-    ax.set_xticks([])
-    ax.spines[["left", "bottom"]].set_visible(False)
-    diff = o["пациенты из нашего train и val"]["acc"] - o["наши тестовые пациенты"]["acc"]
-    ax.set_title(f"Доля верных ответов (4 класса): на знакомых пациентах выше на {pct(diff)}".replace("%", " п.п."), fontsize=11)
+    ax.set_xlim(0, 1.0)
+    ax.set_xticks([0, 0.25, 0.5, 0.75, 1.0], ["0%", "25%", "50%", "75%", "100%"], fontsize=11)
+    ax.spines[["left"]].set_visible(False)
+    ax.set_title("Сколько файлов теста организаторов\nсистема распознала верно", fontsize=14)
+    fig.text(0.01, 0.01, f"100% — все файлы группы с верным ответом.\nВесь тест организаторов ({num(total['n'])} файлов) — "
+             f"{pct(total['acc'], 0)}:\nпочти все его файлы — знакомые пациенты.", fontsize=10.5, color=st.INK2)
+    fig.subplots_adjust(bottom=0.25)
     fig.savefig(out)
     plt.close(fig)
 
